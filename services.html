@@ -14,6 +14,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<script src="content.js"></script>
 </head>
 <body>
 
@@ -51,15 +52,15 @@
   <div class="wrap">
     <a class="logo" href="index.html" aria-label="Double Nine Networks home"><img src="assets/logo.png" alt="Double Nine Networks"></a>
     <nav class="main-nav" id="main-nav" aria-label="Main">
-      <a href="services.html" aria-current="page">Services</a>
-      <a href="industries.html">Industries</a>
-      <a href="partnerships.html">Partnerships</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a class="nav-cta-mobile btn btn-blue" href="#book">Book a free review <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a href="services.html" aria-current="page" data-ek="site.header.services-992a">Services</a>
+      <a href="industries.html" data-ek="site.header.industries-eb47">Industries</a>
+      <a href="partnerships.html" data-ek="site.header.partnerships-29d9">Partnerships</a>
+      <a href="about.html" data-ek="site.header.about-8f7f">About</a>
+      <a href="contact.html" data-ek="site.header.contact-bbaf">Contact</a>
+      <a class="nav-cta-mobile btn btn-blue" href="booking.html"><dn-t data-ek="site.header.book-a-free-review-a6f4">Book a free review</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
     </nav>
     <div class="nav-actions">
-      <a class="btn btn-navy nav-cta" href="#book">Book a free review <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-navy nav-cta" href="booking.html"><dn-t data-ek="site.header.book-a-free-review-a6f4">Book a free review</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
         <svg class="ico" viewBox="0 0 24 24"><path class="bars" d="M4 7h16M4 12h16M4 17h16"/><path class="x" d="M6 6l12 12M18 6 6 18"/></svg>
       </button>
@@ -72,16 +73,16 @@
 <section class="sv-hero">
   <div class="wrap">
     <div class="sv-hero-copy">
-      <div class="eyebrow">Our services</div>
-      <h1>Three steps.<br class="br-d"> Start where you are.</h1>
-      <p>Our model to bring you success and more revenue: a website that works, marketing that gets you found, then AI helpers that answer, book and follow up.</p>
-      <p class="sv-any"><b>Our specialty is U.S. home services.</b> The same three steps work for any business that depends on local customers.</p>
-      <p class="sv-rule">We only take the next step when the last one is working.</p>
+      <div class="eyebrow" data-ek="services.1">Our services</div>
+      <h1><dn-t data-ek="services.2">Three steps.</dn-t><br class="br-d"> <dn-t data-ek="services.3">Start where you are.</dn-t></h1>
+      <p data-ek="services.4">Our model to bring you success and more revenue: a website that works, marketing that gets you found, then AI helpers that answer, book and follow up.</p>
+      <p class="sv-any"><b data-ek="services.5">Our specialty is U.S. home services.</b> <dn-t data-ek="services.6">The same three steps work for any business that depends on local customers.</dn-t></p>
+      <p class="sv-rule" data-ek="services.7">We only take the next step when the last one is working.</p>
     </div>
     <ol class="ladder" aria-label="The three steps">
-      <li class="rung r0"><a href="#land"><span class="rk">LAND</span><b>A website that works</b></a></li>
-      <li class="rung r1"><a href="#expand"><span class="rk">EXPAND</span><b>Growth marketing</b></a></li>
-      <li class="rung r2"><a href="#scale"><span class="rk">SCALE</span><b>AI helpers</b></a></li>
+      <li class="rung r0"><a href="#land"><span class="rk" data-ek="services.8">LAND</span><b data-ek="services.9">A website that works</b></a></li>
+      <li class="rung r1"><a href="#expand"><span class="rk" data-ek="services.10">EXPAND</span><b data-ek="services.11">Growth marketing</b></a></li>
+      <li class="rung r2"><a href="#scale"><span class="rk" data-ek="services.12">SCALE</span><b data-ek="services.13">AI helpers</b></a></li>
     </ol>
   </div>
 </section>
@@ -89,125 +90,125 @@
 <section class="finder" aria-labelledby="finder-h">
   <div class="wrap">
     <div class="finder-head">
-      <div class="eyebrow">Where do I start?</div>
-      <h2 id="finder-h">Pick the one that sounds like you.</h2>
+      <div class="eyebrow" data-ek="services.14">Where do I start?</div>
+      <h2 id="finder-h" data-ek="services.15">Pick the one that sounds like you.</h2>
     </div>
     <div class="finder-opts" role="group" aria-label="Which sounds like you">
-      <a class="opt" href="#land" data-stage="land"><span class="opt-k">LAND</span><b>I don't have a website, or mine is hard to use on a phone.</b><svg class="ico"><use href="#i-arrow"/></svg></a>
-      <a class="opt" href="#expand" data-stage="expand"><span class="opt-k">EXPAND</span><b>My website is fine, but nearby customers can't find me, or I pay for shared leads.</b><svg class="ico"><use href="#i-arrow"/></svg></a>
-      <a class="opt" href="#scale" data-stage="scale"><span class="opt-k">SCALE</span><b>Calls and leads come in, but I miss them or can't keep up.</b><svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a class="opt" href="#land" data-stage="land"><span class="opt-k" data-ek="services.16">LAND</span><b data-ek="services.17">I don't have a website, or mine is hard to use on a phone.</b><svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a class="opt" href="#expand" data-stage="expand"><span class="opt-k" data-ek="services.18">EXPAND</span><b data-ek="services.19">My website is fine, but nearby customers can't find me, or I pay for shared leads.</b><svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a class="opt" href="#scale" data-stage="scale"><span class="opt-k" data-ek="services.20">SCALE</span><b data-ek="services.21">Calls and leads come in, but I miss them or can't keep up.</b><svg class="ico"><use href="#i-arrow"/></svg></a>
     </div>
     <div class="finder-result" id="finder-result" aria-live="polite" hidden>
       <div><span class="gate-k" id="fr-k"></span><p id="fr-t"></p></div>
-      <a class="btn btn-blue" id="fr-go" href="#land">See the details <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-blue" id="fr-go" href="#land"><dn-t data-ek="services.22">See the details</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
     </div>
-    <p class="finder-note">Not sure? The free 20-minute review shows where you stand, and which step to take first. <a href="#book">Book it below.</a></p>
+    <p class="finder-note"><dn-t data-ek="services.23">Not sure? The free 20-minute review shows where you stand, and which step to take first.</dn-t> <a href="booking.html" data-ek="services.24">Book it here.</a></p>
   </div>
 </section>
 
 <section class="stage stage-mist-0" id="land" aria-labelledby="land-h">
   <div class="wrap">
     <div class="stage-side">
-      <div class="stage-badge"><span class="sb-num">01</span><span class="sb-label">LAND</span><span class="start-flag">Start here</span></div>
-      <h2 id="land-h">A website that works</h2>
-      <p class="stage-lead">Built new or fixed up. Fast, easy on a phone, and a clear button to call you.</p>
-      <div class="start-if"><span class="gate-k">Start here if</span><p>you don't have a website, or yours is old, slow or hard to use on a phone. Everything else we do sends people here, so it has to work first.</p></div>
+      <div class="stage-badge"><span class="sb-num" data-ek="services.25">01</span><span class="sb-label" data-ek="services.26">LAND</span><span class="start-flag" data-ek="services.27">Start here</span></div>
+      <h2 id="land-h" data-ek="services.28">A website that works</h2>
+      <p class="stage-lead" data-ek="services.29">Built new or fixed up. Fast, easy on a phone, and a clear button to call you.</p>
+      <div class="start-if"><span class="gate-k" data-ek="services.30">Start here if</span><p data-ek="services.31">you don't have a website, or yours is old, slow or hard to use on a phone. Everything else we do sends people here, so it has to work first.</p></div>
     </div>
     <div class="stage-body">
       <div class="panel">
-        <div class="eyebrow">What's included</div>
+        <div class="eyebrow" data-ek="services.32">What's included</div>
         <ul class="incl">
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Built new or fixed up</b><span>Start from scratch, or fix the site you already have.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Fast on a phone</b><span>Most customers find you on one, so it is built for one first.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>A clear button to call you</b><span>Click-to-call on every page.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Quote and booking forms</b><span>So a visit can turn into a request.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="services.33">Built new or fixed up</b><span data-ek="services.34">Start from scratch, or fix the site you already have.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="services.35">Fast on a phone</b><span data-ek="services.36">Most customers find you on one, so it is built for one first.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="services.37">A clear button to call you</b><span data-ek="services.38">Click-to-call on every page.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="services.39">Quote and booking forms</b><span data-ek="services.40">So a visit can turn into a request.</span></div></li>
         </ul>
       </div>
       <div class="panel">
-        <div class="eyebrow">Problems it fixes</div>
+        <div class="eyebrow" data-ek="services.41">Problems it fixes</div>
         <div class="pairs">
-        <div class="pair"><div class="p-from">My website is hard to use on a phone</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to">Fast and easy to use on a phone</div></div>
-        <div class="pair"><div class="p-from">Visitors can't tell how to reach me</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to">A clear button to call you</div></div>
+        <div class="pair"><div class="p-from" data-ek="services.42">My website is hard to use on a phone</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to" data-ek="services.43">Fast and easy to use on a phone</div></div>
+        <div class="pair"><div class="p-from" data-ek="services.44">Visitors can't tell how to reach me</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to" data-ek="services.45">A clear button to call you</div></div>
         </div>
       </div>
-      <div class="gate"><span class="gate-k">Ready for the next step when</span><p>Your site loads fast on a phone and calls come in through the button.</p></div>
+      <div class="gate"><span class="gate-k" data-ek="services.46">Ready for the next step when</span><p data-ek="services.47">Your site loads fast on a phone and calls come in through the button.</p></div>
     </div>
   </div>
 </section>
 <section class="stage stage-mist-1" id="expand" aria-labelledby="expand-h">
   <div class="wrap">
     <div class="stage-side">
-      <div class="stage-badge"><span class="sb-num">02</span><span class="sb-label">EXPAND</span><span class="start-flag">Start here</span></div>
-      <h2 id="expand-h">Growth marketing</h2>
-      <p class="stage-lead">Get found on Google Maps and in AI answers. We also manage your social media and digital marketing for you.</p>
-      <div class="start-if"><span class="gate-k">Start here if</span><p>you have a website that works, but nearby customers can't find you, or you are paying for leads that go to several companies at once.</p></div>
+      <div class="stage-badge"><span class="sb-num" data-ek="services.48">02</span><span class="sb-label" data-ek="services.49">EXPAND</span><span class="start-flag" data-ek="services.50">Start here</span></div>
+      <h2 id="expand-h" data-ek="services.51">Growth marketing</h2>
+      <p class="stage-lead" data-ek="services.52">Get found on Google Maps and in AI answers. We also manage your social media and digital marketing for you.</p>
+      <div class="start-if"><span class="gate-k" data-ek="services.53">Start here if</span><p data-ek="services.54">you have a website that works, but nearby customers can't find you, or you are paying for leads that go to several companies at once.</p></div>
     </div>
     <div class="stage-body">
       <div class="panel">
-        <div class="eyebrow">What's included</div>
+        <div class="eyebrow" data-ek="services.55">What's included</div>
         <ul class="incl">
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Google Maps and your listing</b><span>Set up, and kept complete.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>AI answers</b><span>Work to get you named when people ask ChatGPT and other AI tools.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Your own ads</b><span>Google Local Services Ads, Google Ads and Facebook/Instagram lead ads, in accounts you own.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Reviews</b><span>Ask more customers, so you look as good as you are.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Social media and digital marketing</b><span>Managed for you.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="services.56">Google Maps and your listing</b><span data-ek="services.57">Set up, and kept complete.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="services.58">AI answers</b><span data-ek="services.59">Work to get you named when people ask ChatGPT and other AI tools.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="services.60">Your own ads</b><span data-ek="services.61">Google Local Services Ads, Google Ads and Facebook/Instagram lead ads, in accounts you own.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="services.62">Reviews</b><span data-ek="services.63">Ask more customers, so you look as good as you are.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="services.64">Social media and digital marketing</b><span data-ek="services.65">Managed for you.</span></div></li>
         </ul>
       </div>
       <div class="panel">
-        <div class="eyebrow">Problems it fixes</div>
+        <div class="eyebrow" data-ek="services.66">Problems it fixes</div>
         <div class="pairs">
-        <div class="pair"><div class="p-from">People searching nearby can't find me</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to">Local search work puts you on the map</div></div>
-        <div class="pair"><div class="p-from">My Google listing is old or half empty</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to">We set it up and keep it complete</div></div>
-        <div class="pair"><div class="p-from">I pay for shared leads from Angi and other lead sites</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to">Your own ads that send calls to you</div></div>
-        <div class="pair"><div class="p-from">ChatGPT and other AI tools never mention me</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to">Work to get you named in AI answers</div></div>
+        <div class="pair"><div class="p-from" data-ek="services.67">People searching nearby can't find me</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to" data-ek="services.68">Local search work puts you on the map</div></div>
+        <div class="pair"><div class="p-from" data-ek="services.69">My Google listing is old or half empty</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to" data-ek="services.70">We set it up and keep it complete</div></div>
+        <div class="pair"><div class="p-from" data-ek="services.71">I pay for shared leads from Angi and other lead sites</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to" data-ek="services.72">Your own ads that send calls to you</div></div>
+        <div class="pair"><div class="p-from" data-ek="services.73">ChatGPT and other AI tools never mention me</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to" data-ek="services.74">Work to get you named in AI answers</div></div>
         </div>
       </div>
-      <div class="gate"><span class="gate-k">Ready for the next step when</span><p>Calls are coming in from Maps, AI answers and your own ads, and you are starting to miss some.</p></div>
+      <div class="gate"><span class="gate-k" data-ek="services.75">Ready for the next step when</span><p data-ek="services.76">Calls are coming in from Maps, AI answers and your own ads, and you are starting to miss some.</p></div>
     </div>
   </div>
 </section>
 <section class="stage stage-navy" id="scale" aria-labelledby="scale-h">
   <div class="wrap">
     <div class="stage-side">
-      <div class="stage-badge"><span class="sb-num">03</span><span class="sb-label">SCALE</span><span class="start-flag">Start here</span></div>
-      <h2 id="scale-h">AI helpers</h2>
-      <p class="stage-lead">Answer calls, book appointments and jobs, and follow up. We build tools to manage client overflow and AI to handle repetitive tasks.</p>
-      <div class="start-if"><span class="gate-k">Start here if</span><p>the calls and leads are already coming in, but you miss them while you are busy with customers or can't keep up with the follow-up.</p></div>
+      <div class="stage-badge"><span class="sb-num" data-ek="services.77">03</span><span class="sb-label" data-ek="services.78">SCALE</span><span class="start-flag" data-ek="services.79">Start here</span></div>
+      <h2 id="scale-h" data-ek="services.80">AI helpers</h2>
+      <p class="stage-lead" data-ek="services.81">Answer calls, book appointments and jobs, and follow up. We build tools to manage client overflow and AI to handle repetitive tasks.</p>
+      <div class="start-if"><span class="gate-k" data-ek="services.82">Start here if</span><p data-ek="services.83">the calls and leads are already coming in, but you miss them while you are busy with customers or can't keep up with the follow-up.</p></div>
     </div>
     <div class="stage-body">
       <div class="panel">
-        <div class="eyebrow">What's included</div>
+        <div class="eyebrow" data-ek="services.84">What's included</div>
         <ul class="incl">
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>After-hours phone agent</b><span>Answers every call and books the appointment or job, 24/7.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Instant lead response</b><span>Replies to website and Facebook leads in seconds and books the appointment or estimate.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Estimate follow-up</b><span>Chases open quotes and revives old leads.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Reviews agent</b><span>Asks every customer and flags bad reviews fast.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Maintenance plan agent</b><span>Reminders that bring customers back.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="services.85">After-hours phone agent</b><span data-ek="services.86">Answers every call and books the appointment or job, 24/7.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="services.87">Instant lead response</b><span data-ek="services.88">Replies to website and Facebook leads in seconds and books the appointment or estimate.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="services.89">Estimate follow-up</b><span data-ek="services.90">Chases open quotes and revives old leads.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="services.91">Reviews agent</b><span data-ek="services.92">Asks every customer and flags bad reviews fast.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="services.93">Maintenance plan agent</b><span data-ek="services.94">Reminders that bring customers back.</span></div></li>
         </ul>
       </div>
       <div class="panel">
-        <div class="eyebrow">Problems our AI agents solve</div>
+        <div class="eyebrow" data-ek="services.95">Problems our AI agents solve</div>
         <div class="pairs">
-        <div class="pair"><div class="p-from">I miss calls when I'm on a job or with a customer</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to">After-hours phone agent: answers every call and books the appointment or job</div></div>
-        <div class="pair"><div class="p-from">Website and Facebook leads sit unanswered for hours</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to">Instant lead response: replies in seconds and books the appointment or estimate</div></div>
-        <div class="pair"><div class="p-from">I send quotes and never chase them</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to">Estimate follow-up: chases open quotes and revives old leads</div></div>
-        <div class="pair"><div class="p-from">My reviews have stalled, and bad ones go unseen</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to">Reviews agent: asks every customer and flags bad reviews fast</div></div>
-        <div class="pair"><div class="p-from">Most customers only buy once</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to">Maintenance plan agent: reminders that bring customers back</div></div>
+        <div class="pair"><div class="p-from" data-ek="services.96">I miss calls when I'm on a job or with a customer</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to" data-ek="services.97">After-hours phone agent: answers every call and books the appointment or job</div></div>
+        <div class="pair"><div class="p-from" data-ek="services.98">Website and Facebook leads sit unanswered for hours</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to" data-ek="services.99">Instant lead response: replies in seconds and books the appointment or estimate</div></div>
+        <div class="pair"><div class="p-from" data-ek="services.100">I send quotes and never chase them</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to" data-ek="services.101">Estimate follow-up: chases open quotes and revives old leads</div></div>
+        <div class="pair"><div class="p-from" data-ek="services.102">My reviews have stalled, and bad ones go unseen</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to" data-ek="services.103">Reviews agent: asks every customer and flags bad reviews fast</div></div>
+        <div class="pair"><div class="p-from" data-ek="services.104">Most customers only buy once</div><svg class="ico p-arrow"><use href="#i-arrow"/></svg><div class="p-to" data-ek="services.105">Maintenance plan agent: reminders that bring customers back</div></div>
         </div>
       </div>
-      <div class="gate gate-end"><span class="gate-k">Where it ends</span><p>This is the top of the ladder. Each tool is added only after the steps before it are working.</p></div>
+      <div class="gate gate-end"><span class="gate-k" data-ek="services.106">Where it ends</span><p data-ek="services.107">This is the top of the ladder. Each tool is added only after the steps before it are working.</p></div>
     </div>
   </div>
 </section>
 <section class="terms" aria-label="How we work">
   <div class="wrap">
-    <div class="eyebrow">Clear terms</div>
-    <h2>However we work together.</h2>
+    <div class="eyebrow" data-ek="services.108">Clear terms</div>
+    <h2 data-ek="services.109">However we work together.</h2>
     <div class="terms-grid">
-      <div class="term"><svg class="ico"><use href="#i-key"/></svg><h3>You own it</h3><p>Profile, website, ad accounts and data stay yours, even if you leave.</p></div>
-      <div class="term"><svg class="ico"><use href="#i-card"/></svg><h3>Budget goes direct</h3><p>Google or Meta bills your card. It never passes through us.</p></div>
-      <div class="term"><svg class="ico"><use href="#i-cal"/></svg><h3>Weekly updates</h3><p>One project manager. Good news or bad, you hear from us every week.</p></div>
-      <div class="term"><svg class="ico"><use href="#i-unlock"/></svg><h3>No long lock-in</h3><p>A short starting term, then month to month.</p></div>
+      <div class="term"><svg class="ico"><use href="#i-key"/></svg><h3 data-ek="services.110">You own it</h3><p data-ek="services.111">Profile, website, ad accounts and data stay yours, even if you leave.</p></div>
+      <div class="term"><svg class="ico"><use href="#i-card"/></svg><h3 data-ek="services.112">Budget goes direct</h3><p data-ek="services.113">Google or Meta bills your card. It never passes through us.</p></div>
+      <div class="term"><svg class="ico"><use href="#i-cal"/></svg><h3 data-ek="services.114">Weekly updates</h3><p data-ek="services.115">One project manager. Good news or bad, you hear from us every week.</p></div>
+      <div class="term"><svg class="ico"><use href="#i-unlock"/></svg><h3 data-ek="services.116">No long lock-in</h3><p data-ek="services.117">A short starting term, then month to month.</p></div>
     </div>
   </div>
 </section>
@@ -215,11 +216,11 @@
   <div class="wrap">
     <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
     <div>
-      <div class="eyebrow">Free 20-minute review</div>
-      <h2>See what your customers see.</h2>
-      <p>In 20 minutes, we will show you where you appear, where you do not, and the clearest opportunities to change it.</p>
+      <div class="eyebrow" data-ek="services.118">Free 20-minute review</div>
+      <h2 data-ek="services.119">See what your customers see.</h2>
+      <p data-ek="services.120">In 20 minutes, we will show you where you appear, where you do not, and the clearest opportunities to change it.</p>
     </div>
-    <a class="btn btn-white" href="#book">Book my free review <svg class="ico"><use href="#i-arrow"/></svg></a>
+    <a class="btn btn-white" href="booking.html"><dn-t data-ek="services.121">Book my free review</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
   </div>
 </section>
 
@@ -230,12 +231,12 @@
   <div class="wrap">
     <div class="foot-top">
       <a class="foot-logo" href="index.html" aria-label="Double Nine Networks"><img src="assets/logo.png" alt="Double Nine Networks"></a>
-      <p class="foot-tag">Helping home service companies and local businesses get found, get called, and get booked.</p>
-      <div class="foot-hours"><svg class="ico"><use href="#i-clock"/></svg>Mon–Sat · 9:00 AM–9:00 PM</div>
+      <p class="foot-tag" data-ek="site.footer.helping-home-service-companies-4c20">Helping home service companies and local businesses get found, get called, and get booked.</p>
+      <div class="foot-hours"><svg class="ico"><use href="#i-clock"/></svg><dn-t data-ek="site.footer.mon-sat-9-00-am-9-00-pm-a6de">Mon–Sat · 9:00 AM–9:00 PM</dn-t></div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 Double Nine Networks. All rights reserved.</span>
-      <span>Strategy by Double Nine · Delivery with DigiDrub</span>
+      <span data-ek="site.footer.2026-double-nine-networks-all-d290">© 2026 Double Nine Networks. All rights reserved.</span>
+      <span data-ek="site.footer.strategy-by-double-nine-delive-51ce">Strategy by Double Nine · Delivery with DigiDrub</span>
     </div>
   </div>
 </footer>
@@ -279,5 +280,6 @@
     });
   })();
 </script>
+<script src="edit.js"></script>
 </body>
 </html>

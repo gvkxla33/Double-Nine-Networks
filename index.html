@@ -14,6 +14,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<script src="content.js"></script>
 </head>
 <body>
 
@@ -51,15 +52,15 @@
   <div class="wrap">
     <a class="logo" href="#top" aria-label="Double Nine Networks home"><img src="assets/logo.png" alt="Double Nine Networks"></a>
     <nav class="main-nav" id="main-nav" aria-label="Main">
-      <a href="services.html">Services</a>
-      <a href="industries.html">Industries</a>
-      <a href="partnerships.html">Partnerships</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a class="nav-cta-mobile btn btn-blue" href="#book">Book a free review <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a href="services.html" data-ek="site.header.services-992a">Services</a>
+      <a href="industries.html" data-ek="site.header.industries-eb47">Industries</a>
+      <a href="partnerships.html" data-ek="site.header.partnerships-29d9">Partnerships</a>
+      <a href="about.html" data-ek="site.header.about-8f7f">About</a>
+      <a href="contact.html" data-ek="site.header.contact-bbaf">Contact</a>
+      <a class="nav-cta-mobile btn btn-blue" href="booking.html"><dn-t data-ek="site.header.book-a-free-review-a6f4">Book a free review</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
     </nav>
     <div class="nav-actions">
-      <a class="btn btn-navy nav-cta" href="#book">Book a free review <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-navy nav-cta" href="booking.html"><dn-t data-ek="site.header.book-a-free-review-a6f4">Book a free review</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
         <svg class="ico" viewBox="0 0 24 24"><path class="bars" d="M4 7h16M4 12h16M4 17h16"/><path class="x" d="M6 6l12 12M18 6 6 18"/></svg>
       </button>
@@ -72,17 +73,17 @@
 <!-- ============ HERO ============ -->
 <section class="hero">
   <div class="hero-left">
-    <div class="hero-eyebrow">Local growth, built for home services</div>
-    <h1>More calls from<br class="br-d"> Google and AI.<br class="br-d"> Fewer shared leads.</h1>
-    <p class="hero-sub">We specialize in U.S. home services, from HVAC and plumbing to electrical, restoration and pest control, and bring the same system to any business that wants to get found on Google Maps, get recommended by AI tools like ChatGPT, and own its leads.</p>
+    <div class="hero-eyebrow" data-ek="index.1">Local growth, built for home services</div>
+    <h1><dn-t data-ek="index.2">More calls from</dn-t><br class="br-d"> <dn-t data-ek="index.3">Google and AI.</dn-t><br class="br-d"> <dn-t data-ek="index.4">Fewer shared leads.</dn-t></h1>
+    <p class="hero-sub" data-ek="index.5">We specialize in U.S. home services, from HVAC and plumbing to electrical, restoration and pest control, and bring the same system to any business that wants to get found on Google Maps, get recommended by AI tools like ChatGPT, and own its leads.</p>
     <div class="hero-ctas">
-      <a class="btn btn-blue" href="#book">Book a free 20-minute review <svg class="ico"><use href="#i-cal"/></svg></a>
-      <a class="btn btn-ghost-light" href="#book">Request a demo</a>
+      <a class="btn btn-blue" href="booking.html"><dn-t data-ek="index.6">Book a free 20-minute review</dn-t> <svg class="ico"><use href="#i-cal"/></svg></a>
+      <a class="btn btn-ghost-light" href="booking.html" data-ek="index.7">Request a demo</a>
     </div>
     <div class="hero-checks">
-      <span><svg class="ico"><use href="#i-check"/></svg>No cost</span>
-      <span><svg class="ico"><use href="#i-check"/></svg>20 minutes</span>
-      <span><svg class="ico"><use href="#i-check"/></svg>Real findings</span>
+      <span><svg class="ico"><use href="#i-check"/></svg><dn-t data-ek="index.8">No cost</dn-t></span>
+      <span><svg class="ico"><use href="#i-check"/></svg><dn-t data-ek="index.9">20 minutes</dn-t></span>
+      <span><svg class="ico"><use href="#i-check"/></svg><dn-t data-ek="index.10">Real findings</dn-t></span>
     </div>
   </div>
 
@@ -91,29 +92,29 @@
     <!-- Booking card (visual placeholder until the real Calendly embed is added) -->
     <div class="book-card" id="book-card">
       <div class="book-top">
-        <span class="lbl"><svg class="ico"><use href="#i-cal"/></svg>Free visibility review</span>
-        <span class="tag">20 MIN</span>
+        <span class="lbl"><svg class="ico"><use href="#i-cal"/></svg><dn-t data-ek="index.11">Free visibility review</dn-t></span>
+        <span class="tag" data-ek="index.12">20 MIN</span>
       </div>
-      <h3>Choose a time to talk</h3>
+      <h3 data-ek="index.13">Choose a time to talk</h3>
       <div class="book-who">
-        <div class="avatar">DN</div>
-        <div><b>Double Nine Networks</b><span>Local visibility specialist</span></div>
+        <div class="avatar" data-ek="index.14">DN</div>
+        <div><b data-ek="index.15">Double Nine Networks</b><span data-ek="index.16">Local visibility specialist</span></div>
       </div>
       <div class="pill-row days">
-        <button class="pill" type="button"><small>MON</small><strong>18</strong></button>
-        <button class="pill today" type="button"><small>TUE</small><strong>19</strong></button>
-        <button class="pill" type="button"><small>WED</small><strong>20</strong></button>
-        <button class="pill" type="button"><small>THU</small><strong>21</strong></button>
+        <button class="pill" type="button"><small data-ek="index.17">MON</small><strong data-ek="index.18">18</strong></button>
+        <button class="pill today" type="button"><small data-ek="index.19">TUE</small><strong data-ek="index.20">19</strong></button>
+        <button class="pill" type="button"><small data-ek="index.21">WED</small><strong data-ek="index.22">20</strong></button>
+        <button class="pill" type="button"><small data-ek="index.23">THU</small><strong data-ek="index.24">21</strong></button>
       </div>
       <div class="pill-row times">
-        <button class="pill" type="button">9:00 AM</button>
-        <button class="pill on" type="button">10:30 AM</button>
-        <button class="pill" type="button">1:00 PM</button>
+        <button class="pill" type="button" data-ek="index.25">9:00 AM</button>
+        <button class="pill on" type="button" data-ek="index.26">10:30 AM</button>
+        <button class="pill" type="button" data-ek="index.27">1:00 PM</button>
       </div>
-      <a class="btn btn-blue" href="#book">Continue in Calendly <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-blue" href="booking.html"><dn-t data-ek="index.28">Continue in Calendly</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
       <div class="book-foot">
-        <span><svg class="ico"><use href="#i-clock"/></svg>Eastern Time</span>
-        <span>Powered by Calendly</span>
+        <span><svg class="ico"><use href="#i-clock"/></svg><dn-t data-ek="index.29">Eastern Time</dn-t></span>
+        <span data-ek="index.30">Powered by Calendly</span>
       </div>
     </div>
   </div>
@@ -122,12 +123,12 @@
 <!-- ============ STRIP ============ -->
 <section class="strip" aria-label="What we cover">
   <div class="wrap">
-    <div class="strip-label">One connected growth system for</div>
+    <div class="strip-label" data-ek="index.31">One connected growth system for</div>
     <div class="strip-items">
-      <span><svg class="ico"><use href="#i-search"/></svg>Google Search</span>
-      <span><svg class="ico"><use href="#i-pin"/></svg>Google Maps</span>
-      <span><svg class="ico"><use href="#i-sparkles"/></svg>AI answers</span>
-      <span><svg class="ico"><use href="#i-phone"/></svg>Qualified calls</span>
+      <span><svg class="ico"><use href="#i-search"/></svg><dn-t data-ek="index.32">Google Search</dn-t></span>
+      <span><svg class="ico"><use href="#i-pin"/></svg><dn-t data-ek="index.33">Google Maps</dn-t></span>
+      <span><svg class="ico"><use href="#i-sparkles"/></svg><dn-t data-ek="index.34">AI answers</dn-t></span>
+      <span><svg class="ico"><use href="#i-phone"/></svg><dn-t data-ek="index.35">Qualified calls</dn-t></span>
     </div>
   </div>
 </section>
@@ -138,24 +139,24 @@
     <img src="assets/home-entry.jpg" alt="A well-kept home with a wooden front door and landscaped entry" loading="lazy">
     <div class="float-badge">
       <svg class="ico"><use href="#i-trend"/></svg>
-      <div><b>More visible</b><small>where local decisions happen</small></div>
+      <div><b data-ek="index.36">More visible</b><small data-ek="index.37">where local decisions happen</small></div>
     </div>
   </div>
   <div class="problem-copy">
-    <div class="eyebrow">The problem</div>
-    <h2>Visibility earns<br class="br-d"> attention.<br class="br-d"> Trust earns the call.</h2>
-    <p>Customers don't scroll far. Most of the calls go to a few companies before anyone else gets a look.</p>
+    <div class="eyebrow" data-ek="index.38">The problem</div>
+    <h2><dn-t data-ek="index.39">Visibility earns</dn-t><br class="br-d"> <dn-t data-ek="index.40">attention.</dn-t><br class="br-d"> <dn-t data-ek="index.41">Trust earns the call.</dn-t></h2>
+    <p data-ek="index.42">Customers don't scroll far. Most of the calls go to a few companies before anyone else gets a look.</p>
     <div class="point">
       <svg class="ico"><use href="#i-search"/></svg>
-      <div><h3>The top three get the calls.</h3><p>Most people pick from the three companies on the Google map.</p></div>
+      <div><h3 data-ek="index.43">The top three get the calls.</h3><p data-ek="index.44">Most people pick from the three companies on the Google map.</p></div>
     </div>
     <div class="point">
       <svg class="ico"><use href="#i-bot"/></svg>
-      <div><h3>Customers are asking ChatGPT.</h3><p>Does it name you or the business down the road?</p></div>
+      <div><h3 data-ek="index.45">Customers are asking ChatGPT.</h3><p data-ek="index.46">Does it name you or the business down the road?</p></div>
     </div>
     <div class="point">
       <svg class="ico"><use href="#i-nodes"/></svg>
-      <div><h3>You're paying to compete.</h3><p>Shared leads go to four companies at once.</p></div>
+      <div><h3 data-ek="index.47">You're paying to compete.</h3><p data-ek="index.48">Shared leads go to four companies at once.</p></div>
     </div>
   </div>
 </section>
@@ -165,38 +166,38 @@
   <div class="wrap">
     <div class="system-head">
       <div>
-        <div class="eyebrow">The Double Nine system</div>
-        <h2>Get found. Get trusted.<br>Get called.</h2>
+        <div class="eyebrow" data-ek="index.49">The Double Nine system</div>
+        <h2><dn-t data-ek="index.50">Get found. Get trusted.</dn-t><br><dn-t data-ek="index.51">Get called.</dn-t></h2>
       </div>
-      <p>Four connected capabilities, managed as one practical growth system.</p>
+      <p data-ek="index.52">Four connected capabilities, managed as one practical growth system.</p>
     </div>
     <div class="cards">
       <article class="card">
-        <div class="card-top"><div class="card-ico"><svg class="ico"><use href="#i-pin"/></svg></div><span class="card-num">01</span></div>
-        <h3>Get found</h3>
-        <p>Google Maps, AI answers and reviews, so you show up when someone nearby needs you.</p>
-        <div class="card-tags">Google Business Profile · AI search · Reviews</div>
+        <div class="card-top"><div class="card-ico"><svg class="ico"><use href="#i-pin"/></svg></div><span class="card-num" data-ek="index.53">01</span></div>
+        <h3 data-ek="index.54">Get found</h3>
+        <p data-ek="index.55">Google Maps, AI answers and reviews, so you show up when someone nearby needs you.</p>
+        <div class="card-tags" data-ek="index.56">Google Business Profile · AI search · Reviews</div>
       </article>
       <article class="card">
-        <div class="card-top"><div class="card-ico"><svg class="ico"><use href="#i-mega"/></svg></div><span class="card-num">02</span></div>
-        <h3>Get leads</h3>
-        <p>Google Local Services Ads, Google Ads and Facebook/Instagram lead ads, in accounts you own.</p>
-        <div class="card-tags">Pay per lead · Your ad accounts · No shared leads</div>
+        <div class="card-top"><div class="card-ico"><svg class="ico"><use href="#i-mega"/></svg></div><span class="card-num" data-ek="index.57">02</span></div>
+        <h3 data-ek="index.58">Get leads</h3>
+        <p data-ek="index.59">Google Local Services Ads, Google Ads and Facebook/Instagram lead ads, in accounts you own.</p>
+        <div class="card-tags" data-ek="index.60">Pay per lead · Your ad accounts · No shared leads</div>
       </article>
       <article class="card">
-        <div class="card-top"><div class="card-ico"><svg class="ico"><use href="#i-mobile"/></svg></div><span class="card-num">03</span></div>
-        <h3>Get a better website</h3>
-        <p>A website that makes you money, not one that just looks like it does. Fast on a phone, with click-to-call.</p>
-        <div class="card-tags">Mobile first · Click-to-call · Quote and booking forms</div>
+        <div class="card-top"><div class="card-ico"><svg class="ico"><use href="#i-mobile"/></svg></div><span class="card-num" data-ek="index.61">03</span></div>
+        <h3 data-ek="index.62">Get a better website</h3>
+        <p data-ek="index.63">A website that makes you money, not one that just looks like it does. Fast on a phone, with click-to-call.</p>
+        <div class="card-tags" data-ek="index.64">Mobile first · Click-to-call · Quote and booking forms</div>
       </article>
       <article class="card">
-        <div class="card-top"><div class="card-ico"><svg class="ico"><use href="#i-headset"/></svg></div><span class="card-num">04</span></div>
-        <h3>Get time back</h3>
-        <p>Once the calls are coming in, a 24/7 AI phone agent answers, qualifies and books appointments and jobs.</p>
-        <div class="card-tags">AI phone agent · Scheduling · Automation</div>
+        <div class="card-top"><div class="card-ico"><svg class="ico"><use href="#i-headset"/></svg></div><span class="card-num" data-ek="index.65">04</span></div>
+        <h3 data-ek="index.66">Get time back</h3>
+        <p data-ek="index.67">Once the calls are coming in, a 24/7 AI phone agent answers, qualifies and books appointments and jobs.</p>
+        <div class="card-tags" data-ek="index.68">AI phone agent · Scheduling · Automation</div>
       </article>
     </div>
-    <div class="system-more"><a class="btn btn-outline" href="services.html">See everything we do <svg class="ico"><use href="#i-arrow"/></svg></a></div>
+    <div class="system-more"><a class="btn btn-outline" href="services.html"><dn-t data-ek="index.69">See everything we do</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a></div>
   </div>
 </section>
 
@@ -207,18 +208,18 @@
       <img src="assets/home-garage.jpg" alt="A modern home with a two-car garage" loading="lazy">
       <div class="float-badge sm">
         <svg class="ico"><use href="#i-shield"/></svg>
-        <div><b>Built to compound</b><small>Your visibility becomes an owned asset.</small></div>
+        <div><b data-ek="index.70">Built to compound</b><small data-ek="index.71">Your visibility becomes an owned asset.</small></div>
       </div>
     </div>
     <div class="trades-copy">
-      <div class="eyebrow">Who we work with</div>
-      <h2>Built for home services. Ready for any business.</h2>
-      <p>Home services is our specialty: owner-run companies, usually working from a phone between jobs. We focus on six trades, and the same system works for any business that depends on local customers.</p>
+      <div class="eyebrow" data-ek="index.72">Who we work with</div>
+      <h2 data-ek="index.73">Built for home services. Ready for any business.</h2>
+      <p data-ek="index.74">Home services is our specialty: owner-run companies, usually working from a phone between jobs. We focus on six trades, and the same system works for any business that depends on local customers.</p>
       <div class="chips">
-        <span class="chip">HVAC</span><span class="chip">Plumbing</span><span class="chip">Electrical</span>
-        <span class="chip">Restoration</span><span class="chip">Remediation</span><span class="chip">Pest Control</span><span class="chip chip-any">Any local business</span>
+        <span class="chip" data-ek="index.75">HVAC</span><span class="chip" data-ek="index.76">Plumbing</span><span class="chip" data-ek="index.77">Electrical</span>
+        <span class="chip" data-ek="index.78">Restoration</span><span class="chip" data-ek="index.79">Remediation</span><span class="chip" data-ek="index.80">Pest Control</span><span class="chip chip-any" data-ek="index.81">Any local business</span>
       </div>
-      <a class="btn btn-white" href="industries.html">See all industries we serve <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-white" href="industries.html"><dn-t data-ek="index.82">See all industries we serve</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
     </div>
   </div>
 </section>
@@ -226,32 +227,32 @@
 <!-- ============ PROCESS ============ -->
 <section class="process" id="process">
   <div class="wrap">
-    <div class="eyebrow">Simple by design</div>
-    <h2>From twenty minutes to a plan you can act on.</h2>
-    <p class="process-sub">No jargon. No mystery proposal. Just a clear view of where you are and what moves the needle next.</p>
+    <div class="eyebrow" data-ek="index.83">Simple by design</div>
+    <h2 data-ek="index.84">From twenty minutes to a plan you can act on.</h2>
+    <p class="process-sub" data-ek="index.85">No jargon. No mystery proposal. Just a clear view of where you are and what moves the needle next.</p>
     <div class="steps">
       <div class="step">
         <div class="step-ico"><svg class="ico"><use href="#i-msg"/></svg></div>
-        <h3>Review</h3>
-        <p>A free 20-minute review of where you show up: the map, AI answers and your reviews.</p>
+        <h3 data-ek="index.86">Review</h3>
+        <p data-ek="index.87">A free 20-minute review of where you show up: the map, AI answers and your reviews.</p>
       </div>
       <svg class="ico step-arrow"><use href="#i-arrow"/></svg>
       <div class="step">
         <div class="step-ico"><svg class="ico"><use href="#i-cal"/></svg></div>
-        <h3>Plan</h3>
-        <p>A plan that fits your season, built around your busy months and the work you want more of.</p>
+        <h3 data-ek="index.88">Plan</h3>
+        <p data-ek="index.89">A plan that fits your season, built around your busy months and the work you want more of.</p>
       </div>
       <svg class="ico step-arrow"><use href="#i-arrow"/></svg>
       <div class="step">
         <div class="step-ico"><svg class="ico"><use href="#i-wrench"/></svg></div>
-        <h3>Build</h3>
-        <p>DigiDrub's team in Princeton builds and runs it, with one project manager.</p>
+        <h3 data-ek="index.90">Build</h3>
+        <p data-ek="index.91">DigiDrub's team in Princeton builds and runs it, with one project manager.</p>
       </div>
       <svg class="ico step-arrow"><use href="#i-arrow"/></svg>
       <div class="step">
         <div class="step-ico"><svg class="ico"><use href="#i-chart"/></svg></div>
-        <h3>Report</h3>
-        <p>Weekly updates and a monthly report in plain English.</p>
+        <h3 data-ek="index.92">Report</h3>
+        <p data-ek="index.93">Weekly updates and a monthly report in plain English.</p>
       </div>
     </div>
   </div>
@@ -261,24 +262,24 @@
 <section class="why" id="why">
   <div class="wrap">
     <div>
-      <div class="eyebrow">Why Double Nine</div>
-      <h2>A local team that does its homework.</h2>
-      <p class="why-lead">You should not need to become a marketing expert to know whether your marketing is working.</p>
-      <p class="why-body">Double Nine gives local businesses a nearby, accountable team that understands the market and connects strategy to specialist execution through DigiDrub in Princeton.</p>
+      <div class="eyebrow" data-ek="index.94">Why Double Nine</div>
+      <h2 data-ek="index.95">A local team that does its homework.</h2>
+      <p class="why-lead" data-ek="index.96">You should not need to become a marketing expert to know whether your marketing is working.</p>
+      <p class="why-body" data-ek="index.97">Double Nine gives local businesses a nearby, accountable team that understands the market and connects strategy to specialist execution through DigiDrub in Princeton.</p>
       <ul class="why-list">
-        <li><svg class="ico"><use href="#i-users"/></svg><div><h3>A local rep who does his homework</h3><p>We check your listing, reviews and AI answers before we call.</p></div></li>
-        <li><svg class="ico"><use href="#i-key"/></svg><div><h3>You own your ad accounts and data</h3><p>Profile, website, ad accounts and data stay yours, even if you leave.</p></div></li>
-        <li><svg class="ico"><use href="#i-card"/></svg><div><h3>Your ad budget goes to Google or Meta directly</h3><p>Google or Meta bills your card. It never passes through us.</p></div></li>
-        <li><svg class="ico"><use href="#i-cal"/></svg><div><h3>One project manager, weekly updates</h3><p>Good news or bad, you hear from us every week.</p></div></li>
-        <li><svg class="ico"><use href="#i-unlock"/></svg><div><h3>No long lock-in</h3><p>A short starting term, then month to month.</p></div></li>
+        <li><svg class="ico"><use href="#i-users"/></svg><div><h3 data-ek="index.98">A local rep who does his homework</h3><p data-ek="index.99">We check your listing, reviews and AI answers before we call.</p></div></li>
+        <li><svg class="ico"><use href="#i-key"/></svg><div><h3 data-ek="index.100">You own your ad accounts and data</h3><p data-ek="index.101">Profile, website, ad accounts and data stay yours, even if you leave.</p></div></li>
+        <li><svg class="ico"><use href="#i-card"/></svg><div><h3 data-ek="index.102">Your ad budget goes to Google or Meta directly</h3><p data-ek="index.103">Google or Meta bills your card. It never passes through us.</p></div></li>
+        <li><svg class="ico"><use href="#i-cal"/></svg><div><h3 data-ek="index.104">One project manager, weekly updates</h3><p data-ek="index.105">Good news or bad, you hear from us every week.</p></div></li>
+        <li><svg class="ico"><use href="#i-unlock"/></svg><div><h3 data-ek="index.106">No long lock-in</h3><p data-ek="index.107">A short starting term, then month to month.</p></div></li>
       </ul>
     </div>
     <div class="why-visual">
       <div class="why-photo"><img src="assets/contractor-cabinet.jpg" alt="A contractor installing kitchen cabinetry" loading="lazy"></div>
       <div class="quote-card">
         <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-        <q>“No promises we can't keep. You hear from us every week, whether the news is good or bad.”</q>
-        <div class="eyebrow">What we believe</div>
+        <q data-ek="index.108">“No promises we can't keep. You hear from us every week, whether the news is good or bad.”</q>
+        <div class="eyebrow" data-ek="index.109">What we believe</div>
       </div>
     </div>
   </div>
@@ -288,31 +289,31 @@
 <section class="faq" id="faq">
   <div class="wrap">
     <div>
-      <div class="eyebrow">Good questions</div>
-      <h2>Before we talk.</h2>
-      <p class="faq-intro">Clear answers are part of the service. Here are the questions business owners ask first.</p>
-      <a class="btn btn-outline" href="#book">Ask us directly <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <div class="eyebrow" data-ek="index.110">Good questions</div>
+      <h2 data-ek="index.111">Before we talk.</h2>
+      <p class="faq-intro" data-ek="index.112">Clear answers are part of the service. Here are the questions business owners ask first.</p>
+      <a class="btn btn-outline" href="contact.html"><dn-t data-ek="index.113">Ask us directly</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
     </div>
     <div class="faq-list">
       <details name="faq" open>
-        <summary>Who is Double Nine built for? <svg class="ico"><use href="#i-down"/></svg></summary>
-        <p>Home services is our specialty: established trade and home-service companies who want a steadier flow of qualified local calls.</p>
+        <summary><dn-t data-ek="index.114">Who is Double Nine built for?</dn-t> <svg class="ico"><use href="#i-down"/></svg></summary>
+        <p data-ek="index.115">Home services is our specialty: established trade and home-service companies who want a steadier flow of qualified local calls.</p>
       </details>
       <details name="faq">
-        <summary>Do you only work with home services? <svg class="ico"><use href="#i-down"/></svg></summary>
-        <p>No. Home services is where we specialize, but the same services, from a website that works to Google Maps, AI answers, your own ads and AI helpers, can be provided to any business that wants more local customers.</p>
+        <summary><dn-t data-ek="index.116">Do you only work with home services?</dn-t> <svg class="ico"><use href="#i-down"/></svg></summary>
+        <p data-ek="index.117">No. Home services is where we specialize, but the same services, from a website that works to Google Maps, AI answers, your own ads and AI helpers, can be provided to any business that wants more local customers.</p>
       </details>
       <details name="faq">
-        <summary>What happens in the free review? <svg class="ico"><use href="#i-down"/></svg></summary>
-        <p>In 20 minutes, we show you where you appear on Google Maps and in AI answers, where you do not, and the clearest opportunities to change it.</p>
+        <summary><dn-t data-ek="index.118">What happens in the free review?</dn-t> <svg class="ico"><use href="#i-down"/></svg></summary>
+        <p data-ek="index.119">In 20 minutes, we show you where you appear on Google Maps and in AI answers, where you do not, and the clearest opportunities to change it.</p>
       </details>
       <details name="faq">
-        <summary>Who actually does the work? <svg class="ico"><use href="#i-down"/></svg></summary>
-        <p>Double Nine is your local point of contact. DigiDrub's team in Princeton builds and runs the work, with one project manager keeping you updated.</p>
+        <summary><dn-t data-ek="index.120">Who actually does the work?</dn-t> <svg class="ico"><use href="#i-down"/></svg></summary>
+        <p data-ek="index.121">Double Nine is your local point of contact. DigiDrub's team in Princeton builds and runs the work, with one project manager keeping you updated.</p>
       </details>
       <details name="faq">
-        <summary>How quickly will I see progress? <svg class="ico"><use href="#i-down"/></svg></summary>
-        <p>You hear from us every week, and you get a monthly report in plain English, so you always know where things stand.</p>
+        <summary><dn-t data-ek="index.122">How quickly will I see progress?</dn-t> <svg class="ico"><use href="#i-down"/></svg></summary>
+        <p data-ek="index.123">You hear from us every week, and you get a monthly report in plain English, so you always know where things stand.</p>
       </details>
     </div>
   </div>
@@ -323,11 +324,11 @@
   <div class="wrap">
     <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
     <div>
-      <div class="eyebrow">Free 20-minute review</div>
-      <h2>See what your customers see.</h2>
-      <p>In 20 minutes, we will show you where you appear, where you do not, and the clearest opportunities to change it.</p>
+      <div class="eyebrow" data-ek="index.124">Free 20-minute review</div>
+      <h2 data-ek="index.125">See what your customers see.</h2>
+      <p data-ek="index.126">In 20 minutes, we will show you where you appear, where you do not, and the clearest opportunities to change it.</p>
     </div>
-    <a class="btn btn-white" href="#book">Book my free review <svg class="ico"><use href="#i-arrow"/></svg></a>
+    <a class="btn btn-white" href="booking.html"><dn-t data-ek="index.127">Book my free review</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
   </div>
 </section>
 
@@ -338,12 +339,12 @@
   <div class="wrap">
     <div class="foot-top">
       <a class="foot-logo" href="#top" aria-label="Double Nine Networks"><img src="assets/logo.png" alt="Double Nine Networks"></a>
-      <p class="foot-tag">Helping home service companies and local businesses get found, get called, and get booked.</p>
-      <div class="foot-hours"><svg class="ico"><use href="#i-clock"/></svg>Mon–Sat · 9:00 AM–9:00 PM</div>
+      <p class="foot-tag" data-ek="site.footer.helping-home-service-companies-4c20">Helping home service companies and local businesses get found, get called, and get booked.</p>
+      <div class="foot-hours"><svg class="ico"><use href="#i-clock"/></svg><dn-t data-ek="site.footer.mon-sat-9-00-am-9-00-pm-a6de">Mon–Sat · 9:00 AM–9:00 PM</dn-t></div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 Double Nine Networks. All rights reserved.</span>
-      <span>Strategy by Double Nine · Delivery with DigiDrub</span>
+      <span data-ek="site.footer.2026-double-nine-networks-all-d290">© 2026 Double Nine Networks. All rights reserved.</span>
+      <span data-ek="site.footer.strategy-by-double-nine-delive-51ce">Strategy by Double Nine · Delivery with DigiDrub</span>
     </div>
   </div>
 </footer>
@@ -373,5 +374,6 @@
     });
   });
 </script>
+<script src="edit.js"></script>
 </body>
 </html>

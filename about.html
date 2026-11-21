@@ -14,6 +14,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<script src="content.js"></script>
 </head>
 <body>
 
@@ -54,15 +55,15 @@
   <div class="wrap">
     <a class="logo" href="index.html" aria-label="Double Nine Networks home"><img src="assets/logo.png" alt="Double Nine Networks"></a>
     <nav class="main-nav" id="main-nav" aria-label="Main">
-      <a href="services.html">Services</a>
-      <a href="industries.html">Industries</a>
-      <a href="partnerships.html">Partnerships</a>
-      <a href="about.html" aria-current="page">About</a>
-      <a href="contact.html">Contact</a>
-      <a class="nav-cta-mobile btn btn-blue" href="#book">Book a free review <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a href="services.html" data-ek="site.header.services-992a">Services</a>
+      <a href="industries.html" data-ek="site.header.industries-eb47">Industries</a>
+      <a href="partnerships.html" data-ek="site.header.partnerships-29d9">Partnerships</a>
+      <a href="about.html" aria-current="page" data-ek="site.header.about-8f7f">About</a>
+      <a href="contact.html" data-ek="site.header.contact-bbaf">Contact</a>
+      <a class="nav-cta-mobile btn btn-blue" href="booking.html"><dn-t data-ek="site.header.book-a-free-review-a6f4">Book a free review</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
     </nav>
     <div class="nav-actions">
-      <a class="btn btn-navy nav-cta" href="#book">Book a free review <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-navy nav-cta" href="booking.html"><dn-t data-ek="site.header.book-a-free-review-a6f4">Book a free review</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
         <svg class="ico" viewBox="0 0 24 24"><path class="bars" d="M4 7h16M4 12h16M4 17h16"/><path class="x" d="M6 6l12 12M18 6 6 18"/></svg>
       </button>
@@ -75,17 +76,17 @@
 <section class="ab-team" id="team">
   <div class="wrap">
     <div class="pt-head">
-      <div class="eyebrow">About us</div>
-      <h1>Meet the founders.</h1>
+      <div class="eyebrow" data-ek="about.1">About us</div>
+      <h1 data-ek="about.2">Meet the founders.</h1>
     </div>
     <div class="founders">
       <figure class="fcard">
         <img src="assets/greg.jpg" alt="Greg Kaunzinger" width="216" height="276">
-        <figcaption><b>Greg Kaunzinger</b><span>Co-Founder</span></figcaption>
+        <figcaption><b data-ek="about.3">Greg Kaunzinger</b><span data-ek="about.4">Co-Founder</span></figcaption>
       </figure>
       <figure class="fcard">
         <img src="assets/nick.jpg" alt="Nick Donnelly" width="216" height="276">
-        <figcaption><b>Nick Donnelly</b><span>Co-Founder</span></figcaption>
+        <figcaption><b data-ek="about.5">Nick Donnelly</b><span data-ek="about.6">Co-Founder</span></figcaption>
       </figure>
     </div>
   </div>
@@ -94,14 +95,14 @@
 <section class="ab-hero">
   <div class="wrap">
     <div class="ab-hero-copy">
-      <div class="eyebrow">Our story</div>
-      <h2>Big-company technology, for local businesses.</h2>
-      <p class="ab-lead">Double Nine Networks is a New Jersey marketing organization. We bring multinational technology services to smaller markets, through bulk and volume buying.</p>
+      <div class="eyebrow" data-ek="about.7">Our story</div>
+      <h2 data-ek="about.8">Big-company technology, for local businesses.</h2>
+      <p class="ab-lead" data-ek="about.9">Double Nine Networks is a New Jersey marketing organization. We bring multinational technology services to smaller markets, through bulk and volume buying.</p>
     </div>
     <div class="ab-tags" aria-label="At a glance">
-      <div class="ab-tag"><span class="gate-k">Based in</span><b>New Jersey</b></div>
-      <div class="ab-tag"><span class="gate-k">Serving</span><b>All local businesses</b></div>
-      <div class="ab-tag dark"><span class="gate-k">Specialty</span><b>Home services</b></div>
+      <div class="ab-tag"><span class="gate-k" data-ek="about.10">Based in</span><b data-ek="about.11">New Jersey</b></div>
+      <div class="ab-tag"><span class="gate-k" data-ek="about.12">Serving</span><b data-ek="about.13">All local businesses</b></div>
+      <div class="ab-tag dark"><span class="gate-k" data-ek="about.14">Specialty</span><b data-ek="about.15">Home services</b></div>
     </div>
   </div>
 </section>
@@ -109,13 +110,13 @@
 <section class="ab-who" id="who">
   <div class="wrap">
     <div class="pt-head">
-      <div class="eyebrow">Who we are</div>
-      <h2>A team that keeps its word.</h2>
+      <div class="eyebrow" data-ek="about.16">Who we are</div>
+      <h2 data-ek="about.17">A team that keeps its word.</h2>
     </div>
     <div class="ab-cards">
-      <article class="ab-card"><div class="card-ico"><svg class="ico"><use href="#i-pin"/></svg></div><h3>Local to New Jersey</h3><p>We're based here and most interested in working with New Jersey businesses, to grow our community. We serve local businesses across the United States.</p></article>
-      <article class="ab-card"><div class="card-ico"><svg class="ico"><use href="#i-shield"/></svg></div><h3>From insurance</h3><p>We come from insurance, and we take pride in doing what we say, including paying commissions that are guaranteed, with no chargeback.</p></article>
-      <article class="ab-card"><div class="card-ico"><svg class="ico"><use href="#i-bot"/></svg></div><h3>Built for AI</h3><p>AI is the future. We help businesses get acquainted with it, so they are not left behind.</p></article>
+      <article class="ab-card"><div class="card-ico"><svg class="ico"><use href="#i-pin"/></svg></div><h3 data-ek="about.18">Local to New Jersey</h3><p data-ek="about.19">We're based here and most interested in working with New Jersey businesses, to grow our community. We serve local businesses across the United States.</p></article>
+      <article class="ab-card"><div class="card-ico"><svg class="ico"><use href="#i-shield"/></svg></div><h3 data-ek="about.20">From insurance</h3><p data-ek="about.21">We come from insurance, and we take pride in doing what we say, including paying commissions that are guaranteed, with no chargeback.</p></article>
+      <article class="ab-card"><div class="card-ico"><svg class="ico"><use href="#i-bot"/></svg></div><h3 data-ek="about.22">Built for AI</h3><p data-ek="about.23">AI is the future. We help businesses get acquainted with it, so they are not left behind.</p></article>
     </div>
   </div>
 </section>
@@ -123,13 +124,13 @@
 <section class="ab-believe" id="believe">
   <div class="wrap">
     <div class="ab-quote">
-      <div class="eyebrow">What we believe</div>
-      <q>No promises we can't keep. You hear from us every week, whether the news is good or bad.</q>
+      <div class="eyebrow" data-ek="about.24">What we believe</div>
+      <q data-ek="about.25">No promises we can't keep. You hear from us every week, whether the news is good or bad.</q>
     </div>
     <ul class="ab-values">
-      <li><svg class="ico"><use href="#i-key"/></svg><div><b>You own it</b><span>Your profile, website, ad accounts and data stay yours.</span></div></li>
-      <li><svg class="ico"><use href="#i-card"/></svg><div><b>Your budget goes direct</b><span>Google or Meta bills your card. It never passes through us.</span></div></li>
-      <li><svg class="ico"><use href="#i-unlock"/></svg><div><b>No long lock-in</b><span>A short starting term, then month to month.</span></div></li>
+      <li><svg class="ico"><use href="#i-key"/></svg><div><b data-ek="about.26">You own it</b><span data-ek="about.27">Your profile, website, ad accounts and data stay yours.</span></div></li>
+      <li><svg class="ico"><use href="#i-card"/></svg><div><b data-ek="about.28">Your budget goes direct</b><span data-ek="about.29">Google or Meta bills your card. It never passes through us.</span></div></li>
+      <li><svg class="ico"><use href="#i-unlock"/></svg><div><b data-ek="about.30">No long lock-in</b><span data-ek="about.31">A short starting term, then month to month.</span></div></li>
     </ul>
   </div>
 </section>
@@ -138,14 +139,14 @@
 <section class="ab-deliver" id="deliver">
   <div class="wrap">
     <div>
-      <div class="eyebrow">How we deliver</div>
-      <h2>Strategy by Double Nine. Delivery with DigiDrub.</h2>
-      <p>Double Nine is your nearby, accountable point of contact. DigiDrub's team in Princeton, NJ builds and runs the work, with one project manager keeping you updated every week.</p>
+      <div class="eyebrow" data-ek="about.32">How we deliver</div>
+      <h2 data-ek="about.33">Strategy by Double Nine. Delivery with DigiDrub.</h2>
+      <p data-ek="about.34">Double Nine is your nearby, accountable point of contact. DigiDrub's team in Princeton, NJ builds and runs the work, with one project manager keeping you updated every week.</p>
     </div>
     <div class="ab-links">
-      <a class="btn btn-outline" href="services.html">Our services <svg class="ico"><use href="#i-arrow"/></svg></a>
-      <a class="btn btn-outline" href="industries.html">Industries we serve <svg class="ico"><use href="#i-arrow"/></svg></a>
-      <a class="btn btn-outline" href="partnerships.html">Partner with us <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-outline" href="services.html"><dn-t data-ek="about.35">Our services</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-outline" href="industries.html"><dn-t data-ek="about.36">Industries we serve</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-outline" href="partnerships.html"><dn-t data-ek="about.37">Partner with us</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
     </div>
   </div>
 </section>
@@ -154,11 +155,11 @@
   <div class="wrap">
     <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
     <div>
-      <div class="eyebrow">Free 20-minute review</div>
-      <h2>Let's talk about your business.</h2>
-      <p>In 20 minutes, we will show you where you appear, where you do not, and the clearest opportunities to change it.</p>
+      <div class="eyebrow" data-ek="about.38">Free 20-minute review</div>
+      <h2 data-ek="about.39">Let's talk about your business.</h2>
+      <p data-ek="about.40">In 20 minutes, we will show you where you appear, where you do not, and the clearest opportunities to change it.</p>
     </div>
-    <a class="btn btn-white" href="#book">Book my free review <svg class="ico"><use href="#i-arrow"/></svg></a>
+    <a class="btn btn-white" href="booking.html"><dn-t data-ek="about.41">Book my free review</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
   </div>
 </section>
 
@@ -169,12 +170,12 @@
   <div class="wrap">
     <div class="foot-top">
       <a class="foot-logo" href="index.html" aria-label="Double Nine Networks"><img src="assets/logo.png" alt="Double Nine Networks"></a>
-      <p class="foot-tag">Helping home service companies and local businesses get found, get called, and get booked.</p>
-      <div class="foot-hours"><svg class="ico"><use href="#i-clock"/></svg>Mon–Sat · 9:00 AM–9:00 PM</div>
+      <p class="foot-tag" data-ek="site.footer.helping-home-service-companies-4c20">Helping home service companies and local businesses get found, get called, and get booked.</p>
+      <div class="foot-hours"><svg class="ico"><use href="#i-clock"/></svg><dn-t data-ek="site.footer.mon-sat-9-00-am-9-00-pm-a6de">Mon–Sat · 9:00 AM–9:00 PM</dn-t></div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 Double Nine Networks. All rights reserved.</span>
-      <span>Strategy by Double Nine · Delivery with DigiDrub</span>
+      <span data-ek="site.footer.2026-double-nine-networks-all-d290">© 2026 Double Nine Networks. All rights reserved.</span>
+      <span data-ek="site.footer.strategy-by-double-nine-delive-51ce">Strategy by Double Nine · Delivery with DigiDrub</span>
     </div>
   </div>
 </footer>
@@ -195,5 +196,6 @@
     document.addEventListener('keydown', function(e){ if(e.key === 'Escape') set(false); });
   })();
 </script>
+<script src="edit.js"></script>
 </body>
 </html>

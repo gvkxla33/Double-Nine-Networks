@@ -774,3 +774,30 @@
     .fcard figcaption{ padding:14px 14px 18px; }
     .fcard span{ font-size:10.5px; letter-spacing:.08em; }
   }
+
+  /* ---------- Booking page ---------- */
+  .bk{ padding:80px 0 100px; background:#fff; }
+  .bk .wrap{ display:grid; grid-template-columns:1fr 1.25fr; gap:64px; align-items:start; }
+  .bk .eyebrow{ margin-bottom:16px; }
+  .bk h1{ font-size:clamp(38px,4.6vw,62px); line-height:1.03; margin-bottom:20px; }
+  .bk-lead{ font-size:20px; line-height:1.5; color:var(--ink); font-weight:500; max-width:26em; margin-bottom:32px; }
+  .bk-list{ background:var(--bg-soft); border-radius:16px; padding:28px 30px; margin-bottom:26px; }
+  .bk-list .gate-k{ margin-bottom:14px; }
+  .bk-list ul{ list-style:none; display:grid; gap:14px; }
+  .bk-list li{ display:flex; gap:14px; align-items:flex-start; font-size:17.5px; line-height:1.45; color:var(--ink); }
+  .bk-list .ico{ color:var(--blue); font-size:18px; margin-top:3px; flex:none; }
+  .bk-alt{ font-size:17px; }
+  .bk-panel{ background:#fff; border:1px solid #e7eef6; border-radius:20px; padding:22px; box-shadow:0 1px 2px rgba(23,42,77,.05), 0 20px 44px rgba(23,42,77,.1); min-width:0; }
+  .bk-panel-top{ display:flex; justify-content:space-between; align-items:center; gap:14px; margin-bottom:14px; flex-wrap:wrap; }
+  .bk-panel-top b{ font-family:'Archivo',sans-serif; font-size:22px; font-weight:800; color:var(--ink); }
+  .bk-open{ display:inline-flex; align-items:center; gap:7px; color:var(--blue); font-weight:600; font-size:15px; }
+  .bk-open .ico{ font-size:15px; }
+  .bk-frame{ display:block; width:100%; height:680px; border:0; border-radius:12px; background:var(--paper); }
+  .bk-btn{ display:none; width:100%; justify-content:center; margin-top:14px; }
+  @media (max-width:900px){
+    .bk{ padding:48px 0 64px; }
+    .bk .wrap{ grid-template-columns:1fr; gap:36px; }
+    .bk-list{ padding:22px; }
+    .bk-frame{ height:620px; }
+    .bk-btn{ display:inline-flex; }
+  }

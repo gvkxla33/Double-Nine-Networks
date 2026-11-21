@@ -14,6 +14,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<script src="content.js"></script>
 </head>
 <body>
 
@@ -51,15 +52,15 @@
   <div class="wrap">
     <a class="logo" href="index.html" aria-label="Double Nine Networks home"><img src="assets/logo.png" alt="Double Nine Networks"></a>
     <nav class="main-nav" id="main-nav" aria-label="Main">
-      <a href="services.html">Services</a>
-      <a href="industries.html" aria-current="page">Industries</a>
-      <a href="partnerships.html">Partnerships</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a class="nav-cta-mobile btn btn-blue" href="#book">Book a free review <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a href="services.html" data-ek="site.header.services-992a">Services</a>
+      <a href="industries.html" aria-current="page" data-ek="site.header.industries-eb47">Industries</a>
+      <a href="partnerships.html" data-ek="site.header.partnerships-29d9">Partnerships</a>
+      <a href="about.html" data-ek="site.header.about-8f7f">About</a>
+      <a href="contact.html" data-ek="site.header.contact-bbaf">Contact</a>
+      <a class="nav-cta-mobile btn btn-blue" href="booking.html"><dn-t data-ek="site.header.book-a-free-review-a6f4">Book a free review</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
     </nav>
     <div class="nav-actions">
-      <a class="btn btn-navy nav-cta" href="#book">Book a free review <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-navy nav-cta" href="booking.html"><dn-t data-ek="site.header.book-a-free-review-a6f4">Book a free review</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
         <svg class="ico" viewBox="0 0 24 24"><path class="bars" d="M4 7h16M4 12h16M4 17h16"/><path class="x" d="M6 6l12 12M18 6 6 18"/></svg>
       </button>
@@ -72,18 +73,18 @@
 <section class="ind-hero">
   <div class="wrap">
     <div class="ind-hero-copy">
-      <div class="eyebrow">Industries</div>
-      <h1>We serve all local businesses.</h1>
-      <p class="ind-lead">If your customers find you by searching nearby, we can help, anywhere in the United States.</p>
-      <p>Double Nine Networks is based out of New Jersey. Home services is our specialty, and the same system works for every kind of local business.</p>
+      <div class="eyebrow" data-ek="industries.1">Industries</div>
+      <h1 data-ek="industries.2">We serve all local businesses.</h1>
+      <p class="ind-lead" data-ek="industries.3">If your customers find you by searching nearby, we can help, anywhere in the United States.</p>
+      <p data-ek="industries.4">Double Nine Networks is based out of New Jersey. Home services is our specialty, and the same system works for every kind of local business.</p>
       <div class="ind-ctas">
-        <a class="btn btn-blue" href="#book">Book a free 20-minute review <svg class="ico"><use href="#i-cal"/></svg></a>
-        <a class="btn btn-outline" href="#trades-list">See the trades we help <svg class="ico"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-blue" href="booking.html"><dn-t data-ek="industries.5">Book a free 20-minute review</dn-t> <svg class="ico"><use href="#i-cal"/></svg></a>
+        <a class="btn btn-outline" href="#trades-list"><dn-t data-ek="industries.6">See the trades we help</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
       </div>
     </div>
     <div class="reach" aria-label="Where we work">
-      <div class="reach-card reach-us"><span class="gate-k">Who we serve</span><b>ALL</b><p>Local businesses across the United States</p></div>
-      <div class="reach-card reach-nj"><span class="gate-k">Where we are</span><b>NJ</b><p>Based out of New Jersey</p></div>
+      <div class="reach-card reach-us"><span class="gate-k" data-ek="industries.7">Who we serve</span><b data-ek="industries.8">ALL</b><p data-ek="industries.9">Local businesses across the United States</p></div>
+      <div class="reach-card reach-nj"><span class="gate-k" data-ek="industries.10">Where we are</span><b data-ek="industries.11">NJ</b><p data-ek="industries.12">Based out of New Jersey</p></div>
     </div>
   </div>
 </section>
@@ -92,25 +93,25 @@
   <div class="wrap">
     <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
     <div>
-      <div class="eyebrow">Jersey first</div>
-      <h2>We're most interested in working with New Jersey businesses.</h2>
-      <p>We're based here, and we want to grow our community here. If you run a business in New Jersey, we'd especially like to hear from you.</p>
+      <div class="eyebrow" data-ek="industries.13">Jersey first</div>
+      <h2 data-ek="industries.14">We're most interested in working with New Jersey businesses.</h2>
+      <p data-ek="industries.15">We're based here, and we want to grow our community here. If you run a business in New Jersey, we'd especially like to hear from you.</p>
     </div>
-    <a class="btn btn-white" href="#book">Talk to us <svg class="ico"><use href="#i-arrow"/></svg></a>
+    <a class="btn btn-white" href="contact.html"><dn-t data-ek="industries.16">Talk to us</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
   </div>
 </section>
 
 <section class="any" id="any">
   <div class="wrap">
     <div class="any-copy">
-      <div class="eyebrow">Every kind of business</div>
-      <h2>Not on the trades list? We still work with you.</h2>
-      <p>Getting found on Google Maps and in AI answers, running your own ads, having a website that works and letting AI answer, book and follow up: none of it is specific to one industry. If local customers look for you, the same three steps apply.</p>
-      <a class="btn btn-outline" href="services.html">See how our services work <svg class="ico"><use href="#i-arrow"/></svg></a>
+      <div class="eyebrow" data-ek="industries.17">Every kind of business</div>
+      <h2 data-ek="industries.18">Not on the trades list? We still work with you.</h2>
+      <p data-ek="industries.19">Getting found on Google Maps and in AI answers, running your own ads, having a website that works and letting AI answer, book and follow up: none of it is specific to one industry. If local customers look for you, the same three steps apply.</p>
+      <a class="btn btn-outline" href="services.html"><dn-t data-ek="industries.20">See how our services work</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
     </div>
     <div class="any-chips">
-      <span class="gate-k">A few examples</span>
-      <div class="chips-light"><span>Restaurants</span><span>Dental and medical offices</span><span>Salons and spas</span><span>Auto repair</span><span>Law firms</span><span>Accountants</span><span>Real estate</span><span>Fitness studios</span><span>Retail shops</span><span>Landscaping</span><span>Cleaning services</span><span>Veterinary clinics</span><span class="more">and any other local business</span></div>
+      <span class="gate-k" data-ek="industries.21">A few examples</span>
+      <div class="chips-light"><span data-ek="industries.22">Restaurants</span><span data-ek="industries.23">Dental and medical offices</span><span data-ek="industries.24">Salons and spas</span><span data-ek="industries.25">Auto repair</span><span data-ek="industries.26">Law firms</span><span data-ek="industries.27">Accountants</span><span data-ek="industries.28">Real estate</span><span data-ek="industries.29">Fitness studios</span><span data-ek="industries.30">Retail shops</span><span data-ek="industries.31">Landscaping</span><span data-ek="industries.32">Cleaning services</span><span data-ek="industries.33">Veterinary clinics</span><span class="more" data-ek="industries.34">and any other local business</span></div>
     </div>
   </div>
 </section>
@@ -119,70 +120,70 @@
   <div class="wrap">
     <div class="tl-head">
       <div>
-        <div class="eyebrow">Our specialty</div>
-        <h2>The trades we help most.</h2>
+        <div class="eyebrow" data-ek="industries.35">Our specialty</div>
+        <h2 data-ek="industries.36">The trades we help most.</h2>
       </div>
-      <p>Home services is where we focus. Owner-run companies, usually working from a phone between jobs.</p>
+      <p data-ek="industries.37">Home services is where we focus. Owner-run companies, usually working from a phone between jobs.</p>
     </div>
     <div class="trade-grid">
       <article class="trade">
-        <div class="trade-top"><span class="trade-num">01</span><h3>HVAC</h3></div>
-        <p class="trade-blurb">Heating and cooling companies live and die by the seasons. When the heat breaks in July or the furnace quits in January, the customer calls whoever shows up first.</p>
-        <div class="trade-q"><span class="gate-k">Customers search</span><div class="qs"><span>AC repair near me</span><span>Furnace not working</span><span>HVAC installation</span></div></div>
+        <div class="trade-top"><span class="trade-num" data-ek="industries.38">01</span><h3 data-ek="industries.39">HVAC</h3></div>
+        <p class="trade-blurb" data-ek="industries.40">Heating and cooling companies live and die by the seasons. When the heat breaks in July or the furnace quits in January, the customer calls whoever shows up first.</p>
+        <div class="trade-q"><span class="gate-k" data-ek="industries.41">Customers search</span><div class="qs"><span data-ek="industries.42">AC repair near me</span><span data-ek="industries.43">Furnace not working</span><span data-ek="industries.44">HVAC installation</span></div></div>
         <ul class="incl">
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Be on the map first</b><span>Show up in the Google Maps results when a system fails.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Own your leads</b><span>Your own ads send calls to you, not to a shared-lead list.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Never miss the rush</b><span>An AI phone agent answers every call, including after hours.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.45">Be on the map first</b><span data-ek="industries.46">Show up in the Google Maps results when a system fails.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.47">Own your leads</b><span data-ek="industries.48">Your own ads send calls to you, not to a shared-lead list.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.49">Never miss the rush</b><span data-ek="industries.50">An AI phone agent answers every call, including after hours.</span></div></li>
         </ul>
       </article>
       <article class="trade">
-        <div class="trade-top"><span class="trade-num">02</span><h3>Plumbing</h3></div>
-        <p class="trade-blurb">Plumbing is often urgent. A leak does not wait, so the company that answers and shows up in search gets the job.</p>
-        <div class="trade-q"><span class="gate-k">Customers search</span><div class="qs"><span>Emergency plumber near me</span><span>Water heater replacement</span><span>Drain cleaning</span></div></div>
+        <div class="trade-top"><span class="trade-num" data-ek="industries.51">02</span><h3 data-ek="industries.52">Plumbing</h3></div>
+        <p class="trade-blurb" data-ek="industries.53">Plumbing is often urgent. A leak does not wait, so the company that answers and shows up in search gets the job.</p>
+        <div class="trade-q"><span class="gate-k" data-ek="industries.54">Customers search</span><div class="qs"><span data-ek="industries.55">Emergency plumber near me</span><span data-ek="industries.56">Water heater replacement</span><span data-ek="industries.57">Drain cleaning</span></div></div>
         <ul class="incl">
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Found when it is urgent</b><span>Maps and AI answers that name you at the moment of need.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>A site built for calls</b><span>Fast on a phone, with a clear click-to-call button.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Answer every call</b><span>AI helpers answer and book while you are on a job.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.58">Found when it is urgent</b><span data-ek="industries.59">Maps and AI answers that name you at the moment of need.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.60">A site built for calls</b><span data-ek="industries.61">Fast on a phone, with a clear click-to-call button.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.62">Answer every call</b><span data-ek="industries.63">AI helpers answer and book while you are on a job.</span></div></li>
         </ul>
       </article>
       <article class="trade">
-        <div class="trade-top"><span class="trade-num">03</span><h3>Electrical</h3></div>
-        <p class="trade-blurb">Electrical work is a trust purchase. Customers read reviews and compare before they let anyone into their home or business.</p>
-        <div class="trade-q"><span class="gate-k">Customers search</span><div class="qs"><span>Electrician near me</span><span>Panel upgrade</span><span>EV charger installation</span></div></div>
+        <div class="trade-top"><span class="trade-num" data-ek="industries.64">03</span><h3 data-ek="industries.65">Electrical</h3></div>
+        <p class="trade-blurb" data-ek="industries.66">Electrical work is a trust purchase. Customers read reviews and compare before they let anyone into their home or business.</p>
+        <div class="trade-q"><span class="gate-k" data-ek="industries.67">Customers search</span><div class="qs"><span data-ek="industries.68">Electrician near me</span><span data-ek="industries.69">Panel upgrade</span><span data-ek="industries.70">EV charger installation</span></div></div>
         <ul class="incl">
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Build trust visibly</b><span>A complete listing and a steady flow of reviews.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Follow up on quotes</b><span>Estimate follow-up chases open quotes so they do not go quiet.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>A website that converts</b><span>Quote and booking forms that turn a visit into a request.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.71">Build trust visibly</b><span data-ek="industries.72">A complete listing and a steady flow of reviews.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.73">Follow up on quotes</b><span data-ek="industries.74">Estimate follow-up chases open quotes so they do not go quiet.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.75">A website that converts</b><span data-ek="industries.76">Quote and booking forms that turn a visit into a request.</span></div></li>
         </ul>
       </article>
       <article class="trade">
-        <div class="trade-top"><span class="trade-num">04</span><h3>Restoration</h3></div>
-        <p class="trade-blurb">Water, fire and storm damage are emergencies. The first company to answer is usually the one that gets the call.</p>
-        <div class="trade-q"><span class="gate-k">Customers search</span><div class="qs"><span>Water damage cleanup</span><span>Fire damage restoration</span><span>Storm damage repair</span></div></div>
+        <div class="trade-top"><span class="trade-num" data-ek="industries.77">04</span><h3 data-ek="industries.78">Restoration</h3></div>
+        <p class="trade-blurb" data-ek="industries.79">Water, fire and storm damage are emergencies. The first company to answer is usually the one that gets the call.</p>
+        <div class="trade-q"><span class="gate-k" data-ek="industries.80">Customers search</span><div class="qs"><span data-ek="industries.81">Water damage cleanup</span><span data-ek="industries.82">Fire damage restoration</span><span data-ek="industries.83">Storm damage repair</span></div></div>
         <ul class="incl">
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Respond in seconds</b><span>Instant lead response replies to website and Facebook leads right away.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Be found in a crisis</b><span>Google Maps and AI answers that name you.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Always answering</b><span>A 24/7 phone agent for calls at any hour.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.84">Respond in seconds</b><span data-ek="industries.85">Instant lead response replies to website and Facebook leads right away.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.86">Be found in a crisis</b><span data-ek="industries.87">Google Maps and AI answers that name you.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.88">Always answering</b><span data-ek="industries.89">A 24/7 phone agent for calls at any hour.</span></div></li>
         </ul>
       </article>
       <article class="trade">
-        <div class="trade-top"><span class="trade-num">05</span><h3>Remediation</h3></div>
-        <p class="trade-blurb">Remediation customers are cautious and want proof you are the right team before they call.</p>
-        <div class="trade-q"><span class="gate-k">Customers search</span><div class="qs"><span>Mold remediation near me</span><span>Asbestos testing</span><span>Radon mitigation</span></div></div>
+        <div class="trade-top"><span class="trade-num" data-ek="industries.90">05</span><h3 data-ek="industries.91">Remediation</h3></div>
+        <p class="trade-blurb" data-ek="industries.92">Remediation customers are cautious and want proof you are the right team before they call.</p>
+        <div class="trade-q"><span class="gate-k" data-ek="industries.93">Customers search</span><div class="qs"><span data-ek="industries.94">Mold remediation near me</span><span data-ek="industries.95">Asbestos testing</span><span data-ek="industries.96">Radon mitigation</span></div></div>
         <ul class="incl">
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Earn the call</b><span>Reviews, a complete listing and a clear website.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Your own ads</b><span>Lead ads in accounts you own, with no shared leads.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Chase the open quotes</b><span>Estimate follow-up that revives old leads.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.97">Earn the call</b><span data-ek="industries.98">Reviews, a complete listing and a clear website.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.99">Your own ads</b><span data-ek="industries.100">Lead ads in accounts you own, with no shared leads.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.101">Chase the open quotes</b><span data-ek="industries.102">Estimate follow-up that revives old leads.</span></div></li>
         </ul>
       </article>
       <article class="trade">
-        <div class="trade-top"><span class="trade-num">06</span><h3>Pest Control</h3></div>
-        <p class="trade-blurb">Pest control is both urgent and recurring. Winning the first call is step one, and keeping the customer is step two.</p>
-        <div class="trade-q"><span class="gate-k">Customers search</span><div class="qs"><span>Pest control near me</span><span>Termite inspection</span><span>Rodent removal</span></div></div>
+        <div class="trade-top"><span class="trade-num" data-ek="industries.103">06</span><h3 data-ek="industries.104">Pest Control</h3></div>
+        <p class="trade-blurb" data-ek="industries.105">Pest control is both urgent and recurring. Winning the first call is step one, and keeping the customer is step two.</p>
+        <div class="trade-q"><span class="gate-k" data-ek="industries.106">Customers search</span><div class="qs"><span data-ek="industries.107">Pest control near me</span><span data-ek="industries.108">Termite inspection</span><span data-ek="industries.109">Rodent removal</span></div></div>
         <ul class="incl">
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Win the first call</b><span>Show up on the map and in AI answers when pests appear.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Keep them coming back</b><span>A maintenance plan agent sends reminders that bring customers back.</span></div></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><div><b>Collect more reviews</b><span>A reviews agent asks every customer and flags bad reviews fast.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.110">Win the first call</b><span data-ek="industries.111">Show up on the map and in AI answers when pests appear.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.112">Keep them coming back</b><span data-ek="industries.113">A maintenance plan agent sends reminders that bring customers back.</span></div></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><div><b data-ek="industries.114">Collect more reviews</b><span data-ek="industries.115">A reviews agent asks every customer and flags bad reviews fast.</span></div></li>
         </ul>
       </article>
     </div>
@@ -191,14 +192,14 @@
 
 <section class="steps-band" aria-label="The same three steps for every industry">
   <div class="wrap">
-    <div class="eyebrow">Same system, any industry</div>
-    <h2>Every industry starts at the right step.</h2>
+    <div class="eyebrow" data-ek="industries.116">Same system, any industry</div>
+    <h2 data-ek="industries.117">Every industry starts at the right step.</h2>
     <div class="mini-steps">
-      <a href="services.html#land"><span>LAND</span><b>A website that works</b></a>
-      <a href="services.html#expand"><span>EXPAND</span><b>Growth marketing</b></a>
-      <a href="services.html#scale"><span>SCALE</span><b>AI helpers</b></a>
+      <a href="services.html#land"><span data-ek="industries.118">LAND</span><b data-ek="industries.119">A website that works</b></a>
+      <a href="services.html#expand"><span data-ek="industries.120">EXPAND</span><b data-ek="industries.121">Growth marketing</b></a>
+      <a href="services.html#scale"><span data-ek="industries.122">SCALE</span><b data-ek="industries.123">AI helpers</b></a>
     </div>
-    <p>We only take the next step when the last one is working.</p>
+    <p data-ek="industries.124">We only take the next step when the last one is working.</p>
   </div>
 </section>
 
@@ -206,11 +207,11 @@
   <div class="wrap">
     <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
     <div>
-      <div class="eyebrow">Free 20-minute review</div>
-      <h2>See what your customers see.</h2>
-      <p>In 20 minutes, we will show you where you appear, where you do not, and the clearest opportunities to change it.</p>
+      <div class="eyebrow" data-ek="industries.125">Free 20-minute review</div>
+      <h2 data-ek="industries.126">See what your customers see.</h2>
+      <p data-ek="industries.127">In 20 minutes, we will show you where you appear, where you do not, and the clearest opportunities to change it.</p>
     </div>
-    <a class="btn btn-white" href="#book">Book my free review <svg class="ico"><use href="#i-arrow"/></svg></a>
+    <a class="btn btn-white" href="booking.html"><dn-t data-ek="industries.128">Book my free review</dn-t> <svg class="ico"><use href="#i-arrow"/></svg></a>
   </div>
 </section>
 
@@ -221,12 +222,12 @@
   <div class="wrap">
     <div class="foot-top">
       <a class="foot-logo" href="index.html" aria-label="Double Nine Networks"><img src="assets/logo.png" alt="Double Nine Networks"></a>
-      <p class="foot-tag">Helping home service companies and local businesses get found, get called, and get booked.</p>
-      <div class="foot-hours"><svg class="ico"><use href="#i-clock"/></svg>Mon–Sat · 9:00 AM–9:00 PM</div>
+      <p class="foot-tag" data-ek="site.footer.helping-home-service-companies-4c20">Helping home service companies and local businesses get found, get called, and get booked.</p>
+      <div class="foot-hours"><svg class="ico"><use href="#i-clock"/></svg><dn-t data-ek="site.footer.mon-sat-9-00-am-9-00-pm-a6de">Mon–Sat · 9:00 AM–9:00 PM</dn-t></div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 Double Nine Networks. All rights reserved.</span>
-      <span>Strategy by Double Nine · Delivery with DigiDrub</span>
+      <span data-ek="site.footer.2026-double-nine-networks-all-d290">© 2026 Double Nine Networks. All rights reserved.</span>
+      <span data-ek="site.footer.strategy-by-double-nine-delive-51ce">Strategy by Double Nine · Delivery with DigiDrub</span>
     </div>
   </div>
 </footer>
@@ -247,5 +248,6 @@
     document.addEventListener('keydown', function(e){ if(e.key === 'Escape') set(false); });
   })();
 </script>
+<script src="edit.js"></script>
 </body>
 </html>
