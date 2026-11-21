@@ -428,7 +428,7 @@ window.DN_CONTENT = {
     "d": "Write your story here."
   },
   "about.9": {
-    "v": "Double Nine Networks is a New Jersey marketing organization. We bring enterprise level technology services to smaller markets, through bulk and volume.",
+    "v": "Double Nine Networks is a New Jersey technology brokerage. We bring enterprise level technology services to smaller markets, through bulk and volume.",
     "d": "Double Nine Networks is a New Jersey marketing organization. We bring multinational technology services to smaller markets, through bulk and volume buying."
   },
   "about.22": {
