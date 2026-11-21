@@ -12,11 +12,11 @@ window.DN_CONTENT = {
     "d": "Google and AI."
   },
   "index.4": {
-    "v": "Own your leads",
+    "v": "Own Your Leads",
     "d": "Fewer shared leads."
   },
   "index.5": {
-    "v": "Most businesses have overpriced tech with under performing quality, or no tech at all. We put enterprise level solutions into your hands. Specializing in all U.S. home services, and bring the same systems to ANY business that strives for strong online presence, want to get listed first on Google searches, get recommended by AI tools like ChatGPT, and to own their own leads.",
+    "v": "Most businesses have overpriced technology and AI with under performing quality, or no tech at all. We put enterprise level solutions into your hands. Specializing in all U.S. home services, and bringing the same systems to ANY business that strives for a strong online presence, want to get listed first on Google searches, get recommended by AI tools like ChatGPT, and want to own their own leads.",
     "d": "We specialize in U.S. home services, from HVAC and plumbing to electrical, restoration and pest control, and bring the same system to any business that wants to get found on Google Maps, get recommended by AI tools like ChatGPT, and own its leads."
   },
   "index.7": {
