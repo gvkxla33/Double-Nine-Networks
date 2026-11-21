@@ -416,7 +416,51 @@ window.DN_CONTENT = {
     "d": "Pick a time that works for you. No cost, no obligation, and no long lock-in."
   },
   "site.footer.helping-home-service-companies-4c20": {
-    "v": "Helping businesses get found.",
+    "v": "Making you more money.",
     "d": "Helping home service companies and local businesses get found, get called, and get booked."
+  },
+  "about.45": {
+    "v": "I was born and raised in Monmouth County, New Jersey. Being from the east coast, I learned early how important it is to adapt to your environment quickly. When I saw there was a disconnect between business owners and the tools necessary for their success, I reached out to my network and found modern technology’s best kept secret. I got in touch with Greg and we built Double Nine Networks to improve your online presence in an ever-changing environment without burning a hole in your pocket.",
+    "d": "Write your story here."
+  },
+  "about.43": {
+    "v": "Born in Russia, raised in Jersey. Adaptability has always been my strong suit. As a late teenager I started in tattoo art, eventually finding myself working in the fitness field. My next venture, and most insane 2 years of my life, was getting into the insurance industry and building my own agency. After being sick of dead systems, bad leads, and excessive chargebacks, I decided to pivot to where the foreseeable future was: tech and AI. I soon got in touch with Nick, we built Double Nine Networks, and the rest will be history.",
+    "d": "Write your story here."
+  },
+  "about.9": {
+    "v": "Double Nine Networks is a New Jersey marketing organization. We bring enterprise level technology services to smaller markets, through bulk and volume.",
+    "d": "Double Nine Networks is a New Jersey marketing organization. We bring multinational technology services to smaller markets, through bulk and volume buying."
+  },
+  "about.22": {
+    "v": "Built for tech & AI",
+    "d": "Built for AI"
+  },
+  "about.23": {
+    "v": "Tech and AI are the future. We help businesses get acquainted with it, so they are not left behind.",
+    "d": "AI is the future. We help businesses get acquainted with it, so they are not left behind."
+  },
+  "about.25": {
+    "v": "Quality service shouldn't break the bank.",
+    "d": "No promises we can't keep. You hear from us every week, whether the news is good or bad."
+  },
+  "about.28": {
+    "v": "Your budget goes direct for ad spend",
+    "d": "Your budget goes direct"
+  },
+  "about.29": {
+    "v": "We provide you the campaign management. All Google or Meta ads are billed to your card. It never passes through us.",
+    "d": "Google or Meta bills your card. It never passes through us."
+  },
+  "about.30": {
+    "v": "Organic Growth",
+    "d": "No long lock-in"
+  },
+  "about.33": {
+    "v": "Strategy by Double Nine. Delivery from enterprise level technology companies.",
+    "d": "Strategy by Double Nine. Delivery with DigiDrub."
+  },
+  "about.34": {
+    "v": "Double Nine is your local technology brokerage who is your accountable point of contact. DigiDrub's team in Princeton, NJ builds and runs the work, with one project manager keeping you updated every week.",
+    "d": "Double Nine is your nearby, accountable point of contact. DigiDrub's team in Princeton, NJ builds and runs the work, with one project manager keeping you updated every week."
   }
 };
