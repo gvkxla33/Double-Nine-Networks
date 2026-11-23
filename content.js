@@ -16,7 +16,7 @@ window.DN_CONTENT = {
     "d": "Fewer shared leads."
   },
   "index.5": {
-    "v": "Most businesses are stuck with overpriced tech and AI with under performing quality, or just nothing at all. We put enterprise level solutions into your hands. Specializing in home services, and bringing the same systems to ANY business that strives for a strong online presence, wants to show up first on Google and AI searches, need advertisement, and want to generate better jobs and/or higher sales.",
+    "v": "Most businesses are stuck with overpriced tech and AI with under performing quality, or just nothing at all. We put enterprise level solutions into your hands. We work with all businesses that strives for a strong online presence, wants to show up first on Google and AI searches, need advertisement, and want to generate better jobs and/or higher sales.",
     "d": "We specialize in U.S. home services, from HVAC and plumbing to electrical, restoration and pest control, and bring the same system to any business that wants to get found on Google Maps, get recommended by AI tools like ChatGPT, and own its leads."
   },
   "index.7": {
