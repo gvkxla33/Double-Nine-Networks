@@ -4,11 +4,11 @@ window.DN_CONTENT = {
     "d": "Local growth, built for home services"
   },
   "index.2": {
-    "v": "Optimize Online",
+    "v": "Get More Jobs",
     "d": "More calls from"
   },
   "index.3": {
-    "v": "Utilize AI & Tech",
+    "v": "Get More Sales",
     "d": "Google and AI."
   },
   "index.4": {
@@ -16,11 +16,11 @@ window.DN_CONTENT = {
     "d": "Fewer shared leads."
   },
   "index.5": {
-    "v": "Most businesses have overpriced technology and AI with under performing quality, or no tech at all. We put enterprise level solutions into your hands. Specializing in all U.S. home services, and bringing the same systems to ANY business that strives for a strong online presence, want to get listed first on Google searches, get recommended by AI tools like ChatGPT, and want to own their own leads.",
+    "v": "Most businesses have overpriced technology and AI with under performing quality, or no tech at all. We put enterprise level solutions into your hands. Specializing in home services, and bringing the same systems to ANY business that strives for a strong online presence, wants to show up first on Google and AI searches, need advertisement, and want to generate better jobs and higher sales.",
     "d": "We specialize in U.S. home services, from HVAC and plumbing to electrical, restoration and pest control, and bring the same system to any business that wants to get found on Google Maps, get recommended by AI tools like ChatGPT, and own its leads."
   },
   "index.7": {
-    "v": "Get your free report",
+    "v": "Get your Free Report",
     "d": "Request a demo"
   },
   "index.44": {
@@ -462,5 +462,9 @@ window.DN_CONTENT = {
   "about.34": {
     "v": "Double Nine is your local technology brokerage who is your accountable point of contact. DigiDrub's team in Princeton, NJ builds and runs the work, with one project manager keeping you updated every week.",
     "d": "Double Nine is your nearby, accountable point of contact. DigiDrub's team in Princeton, NJ builds and runs the work, with one project manager keeping you updated every week."
+  },
+  "index.6": {
+    "v": "Book a Free Consultation",
+    "d": "Book a free 20-minute review"
   }
 };
