@@ -18,6 +18,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<script src="config.js"></script>
 <script src="content.js"></script>
 </head>
 <body>
@@ -116,7 +117,7 @@
     <p class="hero-sub" data-ek="index.5">We specialize in U.S. home services, from HVAC and plumbing to electrical, restoration and pest control, and bring the same system to any business that wants to get found on Google Maps, get recommended by AI tools like ChatGPT, and own its leads.</p>
     <div class="hero-ctas">
       <a class="btn btn-blue" href="booking.html"><dn-t data-ek="index.6">Book a free 20-minute review</dn-t> <svg class="ico"><use href="#i-cal"/></svg></a>
-      <a class="btn btn-ghost-light" href="booking.html" data-ek="index.7">Request a demo</a>
+      <a class="btn btn-ghost-light" href="#report" data-open-report data-ek="index.7">Request a demo</a>
     </div>
     <div class="hero-checks">
       <span><svg class="ico"><use href="#i-check"/></svg><dn-t data-ek="index.8">No cost</dn-t></span>
@@ -411,6 +412,72 @@
       p.classList.add('on');
     });
   });
+</script>
+<!-- ============ FREE REPORT POPUP ============ -->
+<div class="rq-modal" id="report" role="dialog" aria-modal="true" aria-labelledby="rq-title" hidden>
+  <div class="rq-box">
+    <button class="rq-x" type="button" aria-label="Close" data-ek="index.128">&times;</button>
+    <form class="rq-form" id="rq-form" novalidate>
+      <div class="eyebrow" data-ek="index.129">Free research report</div>
+      <h2 id="rq-title" data-ek="index.130">Get your free research report.</h2>
+      <p class="rq-lead" data-ek="index.131">Tell us about your business and we'll email you a free report on how it shows up on Google and in AI answers.</p>
+      <div class="f-row">
+        <label><span data-ek="index.132">Your name</span><input name="name" type="text" required autocomplete="name"></label>
+        <label><span data-ek="index.133">Business name</span><input name="business" type="text" required autocomplete="organization"></label>
+      </div>
+      <div class="f-row">
+        <label><span data-ek="index.134">Email</span><input name="email" type="email" required autocomplete="email"></label>
+        <label><span data-ek="index.135">Phone</span><input name="phone" type="tel" required autocomplete="tel"></label>
+      </div>
+      <label><span data-ek="index.136">Website address</span><input name="website_url" type="text" inputmode="url" required placeholder="yourbusiness.com" autocomplete="url"></label>
+      <label><span data-ek="index.137">Google Maps business profile link (optional)</span><input name="maps_url" type="text" inputmode="url" placeholder="Paste your Google Maps link, if you have one"></label>
+      <input class="hp" type="text" name="company_url" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn btn-blue rq-submit" type="submit"><span data-ek="index.138">Send my free report</span> <svg class="ico"><use href="#i-arrow"/></svg></button>
+      <p class="f-fine" data-ek="index.139">We'll email your report to the address above. By submitting, you agree that we may call or text you about your request.</p>
+      <p class="f-err" id="rq-err" role="alert" hidden></p>
+    </form>
+    <div class="rq-done" id="rq-done" hidden>
+      <svg class="ico"><use href="#i-check"/></svg>
+      <h2 data-ek="index.140">Thanks, your report is on its way.</h2>
+      <p data-ek="index.141">We'll email it to you soon. Keep an eye on your inbox.</p>
+      <button class="btn btn-navy rq-close2" type="button" data-ek="index.142">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Free report popup. The lead address is set in config.js.
+  (function(){
+    var m=document.getElementById('report'); if(!m) return;
+    var f=document.getElementById('rq-form'), err=document.getElementById('rq-err'), done=document.getElementById('rq-done'), last=null;
+    function open(){ if(document.body.classList.contains('dn-editing')) return; last=document.activeElement; m.hidden=false; document.body.style.overflow='hidden'; var i=f.querySelector('input'); if(i) setTimeout(function(){i.focus()},30); }
+    function close(){ m.hidden=true; document.body.style.overflow=''; if(location.hash==='#report') history.replaceState(null,'',location.pathname+location.search); if(last&&last.focus) last.focus(); }
+    function fail(t){ err.textContent=t; err.hidden=false; }
+    document.addEventListener('click',function(e){
+      var o=e.target.closest('[data-open-report]'); if(o){ e.preventDefault(); open(); return; }
+      if(e.target===m||e.target.closest('.rq-x')||e.target.closest('.rq-close2')) close();
+    });
+    document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&!m.hidden) close(); });
+    if(location.hash==='#report') open();
+    f.addEventListener('submit',function(e){
+      e.preventDefault(); err.hidden=true;
+      var d=Object.fromEntries(new FormData(f).entries());
+      if(d.company_url) return;
+      ['name','business','email','phone','website_url'].forEach(function(k){ d[k]=(d[k]||'').trim(); });
+      if(!d.name||!d.business||!d.email||!d.phone||!d.website_url){ fail('Please fill in your name, business, email, phone and website address.'); return; }
+      if(!/^\S+@\S+\.\S+$/.test(d.email)){ fail('Please check your email address.'); return; }
+      if(d.phone.replace(/\D/g,'').length<10){ fail('Please enter a phone number with area code.'); return; }
+      if(!/\S+\.\S+/.test(d.website_url)){ fail('Please enter your website address, like yourbusiness.com'); return; }
+      if(!/^https?:\/\//i.test(d.website_url)) d.website_url='https://'+d.website_url;
+      d.maps_url=(d.maps_url||'').trim();
+      var EP=(window.DN_CONFIG||{}).leadEndpoint; if(!EP){ fail("This form isn't connected yet. Please call or text us instead (see Contact)."); return; }
+      var btn=f.querySelector('.rq-submit'); btn.disabled=true;
+      delete d.company_url; d.source='website-report'; d.page=location.href; d.submitted_at=new Date().toISOString();
+      fetch(EP,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)})
+        .then(function(r){ if(!r.ok) throw 0; f.hidden=true; done.hidden=false; })
+        .catch(function(){ btn.disabled=false; fail("Something went wrong sending that. Please try again, or call or text us (see Contact)."); });
+    });
+  })();
 </script>
 <script src="edit.js"></script>
 </body>

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Book a Free Review — Double Nine Networks</title>
-<meta name="description" content="Book your free 20-minute review with Double Nine Networks. Pick a time and we will show you where you appear, where you do not, and the clearest opportunities to change it.">
+<meta name="description" content="Book your free 20-minute review with Double Nine Networks. Send a quick request and we will call you, then show you where you appear, where you do not, and the clearest opportunities to change it.">
 <link rel="canonical" href="https://doubleninenetworks.com/booking.html">
 <meta property="og:title" content="Book a Free Review — Double Nine Networks">
 <meta property="og:description" content="More calls from Google and AI. Fewer shared leads.">
@@ -18,6 +18,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<script src="config.js"></script>
 <script src="content.js"></script>
 </head>
 <body>
@@ -82,7 +83,7 @@
     <div class="bk-copy">
       <div class="eyebrow" data-ek="booking.1">Free 20-minute review</div>
       <h1 data-ek="booking.2">Book your free review.</h1>
-      <p class="bk-lead" data-ek="booking.3">Pick a time that works for you. No cost, no obligation, and no long lock-in.</p>
+      <p class="bk-lead" data-ek="booking.3">Tell us a little about your business. We'll call you for a quick chat to see if we're a fit, then book your review on the call.</p>
       <div class="bk-list">
         <span class="gate-k" data-ek="booking.4">In 20 minutes, we'll show you</span>
         <ul>
@@ -93,13 +94,43 @@
       </div>
       <p class="bk-alt"><dn-t data-ek="booking.8">Prefer to talk now?</dn-t> <a class="lnk" href="contact.html" data-ek="booking.9">Call, text or email us directly.</a></p>
     </div>
-    <div class="bk-panel">
+    <div class="bk-panel" id="book">
       <div class="bk-panel-top">
-        <b data-ek="booking.10">Choose a time</b>
-        <a class="bk-open" href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1ajx2dGj2VoreDIS0syjmC_UPBeEzgYxGWi5GdQfzMXKUPoxBD4blGQGNAnA8HMpcCRb7XyTbR" target="_blank" rel="noopener"><dn-t data-ek="booking.11">Open in a new tab</dn-t> <svg class="ico"><use href="#i-ext"/></svg></a>
+        <b data-ek="booking.10">Request your review call</b>
       </div>
-      <iframe class="bk-frame" title="Book a free 20-minute review" src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1ajx2dGj2VoreDIS0syjmC_UPBeEzgYxGWi5GdQfzMXKUPoxBD4blGQGNAnA8HMpcCRb7XyTbR?gv=true" loading="lazy"></iframe>
-      <a class="btn btn-blue bk-btn" href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1ajx2dGj2VoreDIS0syjmC_UPBeEzgYxGWi5GdQfzMXKUPoxBD4blGQGNAnA8HMpcCRb7XyTbR" target="_blank" rel="noopener"><dn-t data-ek="booking.12">Pick a time</dn-t> <svg class="ico"><use href="#i-cal"/></svg></a>
+      <form class="bk-form" id="bk-form" novalidate>
+        <div class="f-row">
+          <label><span data-ek="booking.24">Your name</span><input name="name" type="text" required autocomplete="name"></label>
+          <label><span data-ek="booking.25">Business name</span><input name="business" type="text" required autocomplete="organization"></label>
+        </div>
+        <div class="f-row">
+          <label><span data-ek="booking.26">Phone</span><input name="phone" type="tel" required autocomplete="tel"></label>
+          <label><span data-ek="booking.27">Email</span><input name="email" type="email" required autocomplete="email"></label>
+        </div>
+        <div class="f-row">
+          <label><span data-ek="booking.28">Type of business</span>
+            <select name="industry" required>
+              <option value="">Choose one</option>
+              <option>HVAC</option><option>Plumbing</option><option>Electrical</option><option>Roofing</option>
+              <option>Landscaping</option><option>Restoration</option><option>Pest control</option>
+              <option>Other home service</option><option>Other local business</option>
+            </select></label>
+          <label><span data-ek="booking.29">Best time for a quick call</span>
+            <select name="best_time">
+              <option>Anytime</option><option>Morning</option><option>Afternoon</option><option>Evening</option>
+            </select></label>
+        </div>
+        <label><span data-ek="booking.30">Anything we should know? (optional)</span><textarea name="notes" rows="3"></textarea></label>
+        <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn btn-blue bk-submit" type="submit"><span data-ek="booking.20">Request my review call</span> <svg class="ico"><use href="#i-arrow"/></svg></button>
+        <p class="f-fine" data-ek="booking.21">We'll call you for a quick chat to see if we're a fit, then book your review on the call. By submitting, you agree that we may call or text you about your request.</p>
+        <p class="f-err" id="bk-err" role="alert" hidden></p>
+      </form>
+      <div class="bk-done" id="bk-done" hidden>
+        <svg class="ico"><use href="#i-check"/></svg>
+        <h2 data-ek="booking.22">Thanks, we got your request.</h2>
+        <p data-ek="booking.23">We'll call you soon to ask a few quick questions and book your review.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -135,6 +166,28 @@
     btn.addEventListener('click', function(){ set(!nav.classList.contains('open')); });
     nav.addEventListener('click', function(e){ if(e.target.closest('a')) set(false); });
     document.addEventListener('keydown', function(e){ if(e.key === 'Escape') set(false); });
+  })();
+</script>
+<script>
+  // Review request form. The lead address is set in config.js.
+  (function(){
+    var f=document.getElementById('bk-form'); if(!f) return;
+    var err=document.getElementById('bk-err'), done=document.getElementById('bk-done');
+    function fail(m){ err.textContent=m; err.hidden=false; }
+    f.addEventListener('submit',function(e){
+      e.preventDefault(); err.hidden=true;
+      var d=Object.fromEntries(new FormData(f).entries());
+      if(d.website) return;                       // spam trap
+      if(!d.name||!d.business||!d.phone||!d.email||!d.industry){ fail('Please fill in your name, business, phone, email and business type.'); return; }
+      if(!/^\S+@\S+\.\S+$/.test(d.email)){ fail('Please check your email address.'); return; }
+      if(d.phone.replace(/\D/g,'').length<10){ fail('Please enter a phone number with area code.'); return; }
+      var EP=(window.DN_CONFIG||{}).leadEndpoint; if(!EP){ fail("This form isn't connected yet. Please call or text us instead (see Contact)."); return; }
+      var btn=f.querySelector('.bk-submit'); btn.disabled=true;
+      delete d.website; d.source='website-booking'; d.page=location.href; d.submitted_at=new Date().toISOString();
+      fetch(EP,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)})
+        .then(function(r){ if(!r.ok) throw 0; f.hidden=true; done.hidden=false; done.scrollIntoView({block:'center',behavior:'smooth'}); })
+        .catch(function(){ btn.disabled=false; fail("Something went wrong sending that. Please try again, or call or text us (see Contact)."); });
+    });
   })();
 </script>
 <script src="edit.js"></script>

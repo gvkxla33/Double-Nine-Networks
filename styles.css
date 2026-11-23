@@ -844,3 +844,50 @@
   .eyebrow-stamps .stamp{ width:44px; height:44px; filter:none; }
   .eyebrow-stamps .stamp polygon{ fill:#e6f2fb; }
   @media (min-width:641px){ .eyebrow-row{ flex-wrap:nowrap; } .eyebrow-row .hero-eyebrow{ min-width:0; } .eyebrow-stamps{ flex:none; } }
+
+  /* Booking: review request form */
+  .bk-form{ display:grid; gap:14px; }
+  .bk-form .f-row{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  .bk-form label{ display:grid; gap:6px; min-width:0; }
+  .bk-form label span{ font-size:14px; font-weight:600; color:var(--ink); }
+  .bk-form input,.bk-form select,.bk-form textarea{ width:100%; font:inherit; font-size:16px; color:var(--ink); background:#fff; border:1px solid #dbe5f0; border-radius:10px; padding:12px 14px; }
+  .bk-form textarea{ resize:vertical; min-height:84px; }
+  .bk-form input:focus,.bk-form select:focus,.bk-form textarea:focus{ outline:2px solid var(--blue); outline-offset:1px; border-color:var(--blue); }
+  .bk-form .hp{ position:absolute; left:-9999px; width:1px; height:1px; opacity:0; }
+  .bk-submit{ width:100%; justify-content:center; margin-top:4px; }
+  .bk-submit[disabled]{ opacity:.6; cursor:wait; }
+  .f-fine{ font-size:13px; line-height:1.5; color:#5d6c85; margin:0; }
+  .f-err{ margin:0; padding:10px 12px; border-radius:10px; background:#fdecec; color:#9b1c1c; font-size:14.5px; }
+  .bk-done{ text-align:center; padding:36px 12px; }
+  .bk-done .ico{ font-size:34px; color:var(--blue); margin-bottom:10px; }
+  .bk-done h2{ font-family:'Archivo',sans-serif; font-weight:800; font-size:26px; color:var(--ink); margin-bottom:8px; }
+  .bk-done p{ font-size:17px; color:#3b4a63; }
+  @media (max-width:520px){ .bk-form .f-row{ grid-template-columns:1fr; } }
+
+  /* Free report popup */
+  .rq-modal{ position:fixed; inset:0; z-index:1000; background:rgba(14,24,46,.62); display:flex; align-items:center; justify-content:center; padding:16px; overflow-y:auto; }
+  .rq-modal[hidden]{ display:none; }
+  .rq-box{ position:relative; background:#fff; border-radius:20px; width:100%; max-width:560px; max-height:calc(100vh - 32px); overflow-y:auto; padding:34px 32px 28px; box-shadow:0 30px 80px rgba(10,18,36,.45); }
+  .rq-x{ position:absolute; top:12px; right:14px; width:38px; height:38px; border:0; border-radius:50%; background:#f2f6fa; color:var(--ink); font-size:26px; line-height:1; cursor:pointer; }
+  .rq-form{ display:grid; gap:14px; }
+  .rq-form .eyebrow{ margin-bottom:0; }
+  .rq-form h2,.rq-done h2{ font-family:'Archivo',sans-serif; font-weight:800; font-size:clamp(24px,3vw,30px); line-height:1.1; color:var(--ink); margin:0; }
+  .rq-lead{ margin:0; font-size:16.5px; line-height:1.5; color:#3b4a63; }
+  .rq-form .f-row{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  .rq-form label{ display:grid; gap:6px; min-width:0; }
+  .rq-form label span{ font-size:14px; font-weight:600; color:var(--ink); }
+  .rq-form input{ width:100%; font:inherit; font-size:16px; color:var(--ink); background:#fff; border:1px solid #dbe5f0; border-radius:10px; padding:12px 14px; }
+  .rq-form input:focus{ outline:2px solid var(--blue); outline-offset:1px; border-color:var(--blue); }
+  .rq-form .hp{ position:absolute; left:-9999px; width:1px; height:1px; opacity:0; }
+  .rq-submit{ width:100%; justify-content:center; margin-top:2px; }
+  .rq-submit[disabled]{ opacity:.6; cursor:wait; }
+  .rq-done{ text-align:center; padding:26px 8px 8px; display:grid; gap:10px; justify-items:center; }
+  .rq-done[hidden]{ display:none; }
+  .rq-done .ico{ font-size:34px; color:var(--blue); }
+  .rq-done p{ margin:0; font-size:17px; color:#3b4a63; }
+  @media (max-width:520px){ .rq-box{ padding:28px 18px 22px; } .rq-form .f-row{ grid-template-columns:1fr; } }
+  /* while editing wording, show the popup text inline so it can be edited */
+  body.dn-editing .rq-modal[hidden]{ display:block !important; position:static; background:none; padding:24px 16px; }
+  body.dn-editing .rq-modal .rq-box{ max-width:560px; margin:0 auto; box-shadow:none; border:1px dashed #2c9ad8; }
+  body.dn-editing .rq-x{ display:none; }
+  body.dn-editing .rq-done[hidden]{ display:grid !important; margin-top:20px; border-top:1px dashed #dbe5f0; }
