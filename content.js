@@ -472,7 +472,7 @@ window.DN_CONTENT = {
     "d": "Google Search"
   },
   "index.34": {
-    "v": "Advertisement",
+    "v": "SEO, AEO, & Ads",
     "d": "AI answers"
   },
   "site.header.book-a-free-review-a6f4": {
