@@ -376,7 +376,7 @@ window.DN_CONTENT = {
     "d": "A reviews agent asks every customer and flags bad reviews fast."
   },
   "partnerships.4": {
-    "v": "We're a sell-only agency that gives other AI sales agencies access to our tech and systems, starting at 60% commission. The highest in this industry with chances to go higher. We also provide services to white label companies, and are interested in taking on experienced business owners in the tech/AI space.",
+    "v": "We're a sell-only agency that gives sales reps access to our tech and systems, starting at 60% commission with the ability to grow into overrides and own your own agency. Our commissions are the highest in this industry with the no chargebacks involved later on. We also provide our tech and systems to white label tech/marketing companies, and are interested in taking on partnerships with experienced business owners in the tech/AI space. (Directly reach out to us if that applies to you)",
     "d": "We're a sell-only agency that gives other AI sales agencies free access to our tech and systems, starting at 60% commission."
   },
   "partnerships.3": {
@@ -384,7 +384,7 @@ window.DN_CONTENT = {
     "d": "Sell more. Keep more."
   },
   "partnerships.5": {
-    "v": "No hiring. No employees. You run your own agency, and we give you the tools to sell as easily as possible and build your own agency. In some instances, you create your margins.",
+    "v": "No hiring. No employees. You run your own agency, and we give you the tools to sell as easily as possible and build your own agency. In some instances, you get to create your own margins.",
     "d": "No hiring. No employees. You run your own agency, and we give you the tools to sell as easily as possible."
   },
   "partnerships.28": {
@@ -530,5 +530,13 @@ window.DN_CONTENT = {
   "contact.27": {
     "v": "Book a Free Consultation",
     "d": "Book a free review"
+  },
+  "partnerships.20": {
+    "v": "How it works (FOR Sales Reps)",
+    "d": "How it works"
+  },
+  "partnerships.21": {
+    "v": "Brand New Sales Rep? Three steps. That's it.",
+    "d": "Three steps. That's it."
   }
 };
