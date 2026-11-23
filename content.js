@@ -8,15 +8,15 @@ window.DN_CONTENT = {
     "d": "More calls from"
   },
   "index.3": {
-    "v": "Get More Sales",
+    "v": "Own Your Leads",
     "d": "Google and AI."
   },
   "index.4": {
-    "v": "Own Your Leads",
+    "v": "Make More Sales",
     "d": "Fewer shared leads."
   },
   "index.5": {
-    "v": "Most businesses have overpriced technology and AI with under performing quality, or no tech at all. We put enterprise level solutions into your hands. Specializing in home services, and bringing the same systems to ANY business that strives for a strong online presence, wants to show up first on Google and AI searches, need advertisement, and want to generate better jobs and higher sales.",
+    "v": "Most businesses are stuck with overpriced tech and AI with under performing quality, or just nothing at all. We put enterprise level solutions into your hands. Specializing in home services, and bringing the same systems to ANY business that strives for a strong online presence, wants to show up first on Google and AI searches, need advertisement, and want to generate better jobs and/or higher sales.",
     "d": "We specialize in U.S. home services, from HVAC and plumbing to electrical, restoration and pest control, and bring the same system to any business that wants to get found on Google Maps, get recommended by AI tools like ChatGPT, and own its leads."
   },
   "index.7": {
@@ -28,7 +28,7 @@ window.DN_CONTENT = {
     "d": "Most people pick from the three companies on the Google map."
   },
   "index.48": {
-    "v": "Shared leads go to four companies at once (and they don't always convert).",
+    "v": "Don't want to be stuck sharing leads? Shared leads go to four companies at once (and they don't always convert).",
     "d": "Shared leads go to four companies at once."
   },
   "index.51": {
@@ -48,7 +48,7 @@ window.DN_CONTENT = {
     "d": "Home services is our specialty: owner-run companies, usually working from a phone between jobs. We focus on six trades, and the same system works for any business that depends on local customers."
   },
   "index.87": {
-    "v": "A free 20-minute review of where you show up: the map, AI answers and your reviews while focusing on the gaps that need fixing.",
+    "v": "A free 20-minute review of where you show up: Google search and maps, AI answers, your reviews, and your media presence while focusing on the gaps that need fixing.",
     "d": "A free 20-minute review of where you show up: the map, AI answers and your reviews."
   },
   "index.91": {
@@ -64,7 +64,7 @@ window.DN_CONTENT = {
     "d": "You should not need to become a marketing expert to know whether your marketing is working."
   },
   "index.97": {
-    "v": "Double Nine Networks gives local businesses an on hand, accountable team that understands your market and connects you to the right solutions for your specific problems.",
+    "v": "Double Nine Networks gives businesses an on hand, accountable team that understands your market and connects you to the right solutions for your specific problems.",
     "d": "Double Nine gives local businesses a nearby, accountable team that understands the market and connects strategy to specialist execution through DigiDrub in Princeton."
   },
   "index.98": {
@@ -112,7 +112,7 @@ window.DN_CONTENT = {
     "d": "No. Home services is where we specialize, but the same services, from a website that works to Google Maps, AI answers, your own ads and AI helpers, can be provided to any business that wants more local customers."
   },
   "index.119": {
-    "v": "In 20 minutes, we start with an overview of your online presence, determine which gaps need to be addressed, and then bring tailored solutions to you to grow your business.",
+    "v": "In 20 minutes, we start with an overview of your online presence, determine which gaps need to be addressed, and then bring tailored solutions to you to enhance your business.",
     "d": "In 20 minutes, we show you where you appear on Google Maps and in AI answers, where you do not, and the clearest opportunities to change it."
   },
   "index.121": {
@@ -152,7 +152,7 @@ window.DN_CONTENT = {
     "d": "Growth marketing"
   },
   "services.4": {
-    "v": "Our model to bring you success and more revenue: a website that efficiently works, marketing that gets you found, then AI helpers that answer, book, follow up, and qualify your leads.",
+    "v": "Our model to bring you success and more revenue: a website that efficiently works, digital marketing that gets you found, then AI helpers that answer, book, follow up, and qualify your leads.",
     "d": "Our model to bring you success and more revenue: a website that works, marketing that gets you found, then AI helpers that answer, book and follow up."
   },
   "services.6": {
@@ -466,5 +466,69 @@ window.DN_CONTENT = {
   "index.6": {
     "v": "Book a Free Consultation",
     "d": "Book a free 20-minute review"
+  },
+  "index.32": {
+    "v": "Google/AI Search",
+    "d": "Google Search"
+  },
+  "index.34": {
+    "v": "Advertisement",
+    "d": "AI answers"
+  },
+  "site.header.book-a-free-review-a6f4": {
+    "v": "Book a Free Consultation",
+    "d": "Book a free review"
+  },
+  "index.41": {
+    "v": "Trust earns the job or sale.",
+    "d": "Trust earns the call."
+  },
+  "index.42": {
+    "v": "Customers don't scroll far. Most of the jobs or sales go to the small, few companies at the top of the search. Dreams die on the second page of a search.",
+    "d": "Customers don't scroll far. Most of the calls go to a few companies before anyone else gets a look."
+  },
+  "index.43": {
+    "v": "The top three get the jobs/sales.",
+    "d": "The top three get the calls."
+  },
+  "index.45": {
+    "v": "Customers are now asking ChatGPT more than ever.",
+    "d": "Customers are asking ChatGPT."
+  },
+  "index.46": {
+    "v": "Does AI name you or your business down the road?",
+    "d": "Does it name you or the business down the road?"
+  },
+  "services.23": {
+    "v": "Not sure? The free consultation shows where you stand, and which step to take first.",
+    "d": "Not sure? The free 20-minute review shows where you stand, and which step to take first."
+  },
+  "services.121": {
+    "v": "Book My Free Consultation",
+    "d": "Book my free review"
+  },
+  "index.127": {
+    "v": "Book My Free Consultation",
+    "d": "Book my free review"
+  },
+  "industries.5": {
+    "v": "Book a Free Consultation",
+    "d": "Book a free 20-minute review"
+  },
+  "industries.128": {
+    "v": "Book My Free Consultation",
+    "d": "Book my free review"
+  },
+  "partnerships.70": {
+    "v": "Start a Partnership Conversation",
+    "d": "Start the conversation"
+  },
+  "about.41": {
+    "v": "Book My Free Consultation",
+    "d": "Book my free review"
+  },
+  "contact.27": {
+    "v": "Book a Free Consultation",
+    "d": "Book a free review"
   }
 };
