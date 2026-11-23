@@ -376,7 +376,7 @@ window.DN_CONTENT = {
     "d": "A reviews agent asks every customer and flags bad reviews fast."
   },
   "partnerships.4": {
-    "v": "We're a sell-only agency that gives other AI sales agencies or interested reps access to our tech and systems, starting at 60% commission. The highest in this industry with chances to go higher.",
+    "v": "We're a sell-only agency that gives other AI sales agencies access to our tech and systems, starting at 60% commission. The highest in this industry with chances to go higher. We also provide services to white label companies, and are interested in taking on experienced business owners in the tech/AI space.",
     "d": "We're a sell-only agency that gives other AI sales agencies free access to our tech and systems, starting at 60% commission."
   },
   "partnerships.3": {
@@ -384,7 +384,7 @@ window.DN_CONTENT = {
     "d": "Sell more. Keep more."
   },
   "partnerships.5": {
-    "v": "No hiring. No employees. You run your own agency, and we give you the tools to sell as easily as possible and build your own agency.",
+    "v": "No hiring. No employees. You run your own agency, and we give you the tools to sell as easily as possible and build your own agency. In some instances, you create your margins.",
     "d": "No hiring. No employees. You run your own agency, and we give you the tools to sell as easily as possible."
   },
   "partnerships.28": {
