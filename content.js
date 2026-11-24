@@ -538,5 +538,9 @@ window.DN_CONTENT = {
   "partnerships.21": {
     "v": "Brand New Sales Rep? Three steps. That's it.",
     "d": "Three steps. That's it."
+  },
+  "site.footer.2026-double-nine-networks-all-d290": {
+    "v": "© 2026 Gregory Kaunzinger. All rights reserved.",
+    "d": "© 2026 Double Nine Networks. All rights reserved."
   }
 };
